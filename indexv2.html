@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Emily Li</title>
+  	<meta charset="utf-8">  
+<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='./css/reset.css' media='all' rel='stylesheet' type='text/css' />
+    <link href='./css/mainv3.css' media='all' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="https://use.typekit.net/zzg4edb.css">
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  <style>
+    /* Your optional CSS styles go here */
+  </style>
+</head>
+
+<body>
+<!--   <footer>
+    <a class="linkedin" href="">linkedin</a>
+    <a class="instagram" href="#aboutme">instagram</a>
+    <p class="email">emilylii.1204@gmail.com</p>
+</footer> -->
+
+	<div id="wrapper2">
+  <!--   <div class="back"></div> -->
+    <div class="nav">
+      <a href="indexv2.html">
+        <img id="home" src="./img/icon3.png">
+      </a>
+      <a href="#" class="show_hide"><img src="./img/menuhover.gif"></a>
+        <div class="list">
+       <!--    <div class="rect"></div> -->
+          <a class="menu" href="#container">design</a>
+          <a class="menu" href="#aboutme">illustration</a>
+          <a class="menu" href="about.html">about</a>
+        </div>
+      <div class="link">
+        <a class="linkbut space" href="about.html">about</a>
+        <a class="linkbut space" href="#aboutme">illustration</a>
+        <a class="linkbut space" href="#container">design</a>
+      </div>
+    </div>
+
+
+  <!--   <div class="content"> -->
+      <div class="introbox">
+        <div class="intro">Hello, my name is Emily! and I am a graphic designer and illustrator.</div>
+        <!-- <div class="introsub"> I create works that connect people together and to solve problems that  </div>
+ -->        <div class="arrow bounce-3">
+          <a href="#container">
+          <img src="./img/arrow.gif" width="100%" >
+        </a>
+        </div>
+
+   <!--      <div class="based"><span>Currently based in Hong Kong</span></h1> -->
+      </div>
+
+   <!--  </div> -->
+
+
+       <div id="container">
+
+          <div class="image-gallery">
+              <a href="nibble.html" class="work_nibble" >
+               <!--  <p class="work_1_text">hello</p> -->
+              </a>
+              <a href="purity.html" class="work_pur">
+              </a>
+              <a href="tokyo.html" class="work_sugar">
+<!--                 <i class="icon ion-md-expand"></i>
+ -->              </a>
+              <a href="sugar.html" class="work_tokyo">
+<!--                 <i class="icon ion-md-expand"></i>
+ -->              </a>
+              <a href="care.html" class="work_care">
+<!--                 <i class="icon ion-md-expand"></i>
+ -->              </a>
+              <a href="didot.html" class="work_didot">
+<!--                 <i class="icon ion-md-expand"></i>
+ -->              </a>
+              <a href="ease.html" class="work_archive">
+<!--                 <i class="icon ion-md-expand"></i>
+ -->              </a>
+              <a href="nourish.html" class="work_nourish">
+<!--                 <i class="icon ion-md-expand"></i>
+ -->              </a>      
+         </div> 
+
+        </div>
+    <div class="footer">
+      <div class="hover">
+        <figure class="swap-on-hover">
+          <a href="https://www.instagram.com/em.i.lilidesign/?hl=en">
+          <img  class="swap-on-hover__front-image" src="./img/iconinst.png"/>
+          <img class="swap-on-hover__back-image" src="./img/iconinsthover.png"/>
+          </a>
+        </figure>
+
+        <figure class="swap-on-hover2">
+          <a href="https://hk.linkedin.com/in/emily-li-b479ab157">
+          <img  class="swap-on-hover__front-image2" src="./img/iconlink.png"/>
+          <img class="swap-on-hover__back-image2" src="./img/iconlinkhover.png"/>
+          </a>
+        </figure>
+        <figure class="swap-on-hover3">
+          <a href="mailto:emilylii.1204@gmail.com">
+          <img  class="swap-on-hover__front-image3" src="./img/iconemail.png"/>
+          <img class="swap-on-hover__back-image3" src="./img/iconemailhover.png"/>
+          </a>
+        </figure>
+      </div>
+    </div>
+    
+  </div>
+
+  <script>
+
+// $(document).scroll(function() {
+//     $('#home').css({width: $(this).scrollTop() > 400? "60px":"100px"});
+//     $('#e').css({width: $(this).scrollTop() > 100? "25%":"50%"});
+//     $('#e').css({top: $(this).scrollTop() > 100? "110%":"0%"});
+//     $('#e').css({left: $(this).scrollTop() > 100? "10%":"50%"});
+//     $('#e').css({right: $(this).scrollTop() > 100? "0":"20px"});
+
+
+//     });
+
+$(window).on('resize', function(){
+  var win = $(this);
+  var smallWidth = 60;
+  var origWidth = 100;
+  if (win.width()<500){
+      $("#home").width(smallWidth);
+
+  } else{
+    $("#home").width(origWidth);
+  }
+});
+
+$(document).ready(function() {
+
+    $(".list").hide();
+    $(".show_hide").show();
+
+    $('.show_hide').click(function() {
+          
+         //$(".slidingDiv").slideToggle();
+         var isvisible = $(this).next('.list').is(':visible');
+      
+         if ( isvisible ) {
+           $(this).next('.list').hide();
+         } else{
+           $(this).next('.list').show(); 
+         }
+    });
+
+});
+
+  </script>
+
+</body>
+
+
+</html>

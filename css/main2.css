@@ -1,0 +1,135 @@
+*,
+*:: before,
+*:: after{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 
+}
+body{
+  width:100%;
+  height:100vh;
+  display:flex;
+  background-color:#eee;
+}
+
+.container{
+  width:100%;
+  max-width: 120rem;
+  margin: auto;
+  padding: 0 1.5rem;}
+
+.image-gallery{
+  display: grid;
+  grid-gap:1.5rem;
+  grid-template-columns:  1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+            'work_nibble work_nibble work_sugar work_sugar'
+            'work_nibble work_nibble work_didot work_didot'
+            'work_care work_archive work_archive work_archive'
+            'work_tokyo work_tokyo work_nourish work_nourish'
+            'work_pur work_pur work_nourish work_nourish'
+      ;
+
+}
+
+.image-gallery a{
+  width:100%;
+  height:25rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.image-gallery a i{
+  font-size:3rem;
+  position: relative;
+  z-index: 100;
+  padding: 1rem 3rem;
+  border: 2px solid rgba(255,255,255,.6);
+  color:rgba(255,255,255,.6);
+  border-radius:.4rem;
+  opacity: 0;
+  transition: opacity .5s;
+
+}
+
+.image-gallery a::before{
+  content: ''; 
+  position: absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  background-color: rgba(0,0,0,.8);
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.image-gallery a:hover i,
+.image-gallery a:hover::before{
+  opacity: 1;
+}
+
+
+.work_nibble{
+  grid-area: work_nibble;
+  background-image: url("../img/work_nibble.jpg");
+  min-height: 51.5rem;
+/*  min-width: 50%;*/
+}
+
+
+.work_pur{
+  grid-area: work_pur;
+  background-image: url("../img/work_pur.jpg");
+}
+
+.work_sugar{
+  grid-area: work_sugar;
+  background-image: url("../img/work_sugar.jpg");
+/*  min-height:60%;*/
+}
+
+.work_tokyo{
+  grid-area: work_tokyo;
+  background-image: url("../img/work_tokyo.jpg");
+}
+
+.work_care{
+  grid-area: work_care;
+  background-image: url("../img/work_care.jpg");
+}
+
+.work_dream{
+  grid-area: work_dream;
+  background-image: url("../img/work_dream.jpg");
+
+}
+.work_didot{
+  grid-area: work_didot;
+  background-image: url("../img/work_didot.jpg");
+/*    min-width:51.5rem;*/
+}
+
+.work_archive{
+  grid-area: work_archive;
+  background-image: url("../img/work_archive2.png");
+}
+
+.work_nourish{
+  grid-area: work_nourish;
+  background-image: url("../img/work_nourish.png");
+  min-height:51.5rem;
+}
+
