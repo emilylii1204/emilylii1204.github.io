@@ -277,6 +277,7 @@ span{
             'work_nibble work_nibble work_didot work_didot'
             'work_archive work_care work_care work_care'
             'work_archive work_care work_care work_care'
+
             'work_pur work_pur work_nourish work_nourish'
             'work_tokyo work_tokyo work_nourish work_nourish'
       ;
@@ -330,7 +331,7 @@ span{
 
 .work_nibble{
   grid-area: work_nibble;
-  background-image: url("../img/work_1.jpg");
+  background-image: url("../img/nibbles/blue3.jpg");
   min-height: 40rem;
 
 }
@@ -369,11 +370,11 @@ span{
 
 .work_sugar{
   grid-area: work_sugar;
-  background-image: url("../img/work_2.gif");
+  background-image: url("../img/tokyo/ill.jpg");
 }
 
 .work_sugar:hover{
-  background-image: url("../img/work_2_hover.gif");
+  background-image: url("../img/work_2.gif");
   transition-duration: 1s;
 }
 
@@ -381,11 +382,11 @@ span{
 
 .work_tokyo{
   grid-area: work_tokyo;
-  background-image: url("../img/work_5.gif");
+  background-image: url("../img/work_5_hover.gif");
 }
 
 .work_tokyo:hover{
-  background-image: url("../img/work_5_hover.gif");
+  background-image: url("../img/work_5.gif");
   transition-duration: 1s;
 }
 
@@ -406,13 +407,13 @@ span{
 }
 .work_didot{
   grid-area: work_didot;
-  background-image: url("../img/work_didot.jpg");
+  background-image: url("../img/didot/5.jpg");
 /*    min-width:51.5rem;*/
 }
 
-.work_didot_hover{
+.work_didot:hover{
   grid-area: work_didot;
-  background-image: url("../img/work_didot_hover.jpg");
+  background-image: url("../img/work_didot.jpg");
   transition-duration: 1s;
 /*    min-width:51.5rem;*/
 }
@@ -490,7 +491,7 @@ display:inline-block;
   width:100%;
   height:6rem;
   padding: 1rem;
-  background-color: white;
+/*  background-color: white;*/
   text-align: center;
   z-index: 1000;
 }
@@ -526,13 +527,14 @@ display:inline-block;
   margin:0;
   top:2rem;
   position: relative;
-  width:70%;
-  font-size: 60px;
+  width:80%;
+  font-size: 40px;
   height:auto;
   font-family: Bookmania ;
   color:#848484;
   z-index:4;
   transition: 0.6s;
+  line-height:1.3;
 }
 
 .subheader{
@@ -550,10 +552,11 @@ display:inline-block;
 }
 .subheader2{
   position: relative;
-  margin-left:30%;
+  top:100px;
+  /*margin-left:30%;*/
   padding-top:35px;
   line-height: 1.4;
-  width:60%;
+  width:70%;
   font-size: 15px;
   height:auto;
   font-family: ApercuRegular ;
@@ -681,6 +684,18 @@ display:inline-block;
   line-height: 1.3;
 }
 
+.desalonefull{
+  width:60%;
+  left:0;
+  font-family: ApercuRegular;
+  font-size:13px;
+  color:#848484;
+  top:0;
+  padding-top:60px;
+  padding-bottom: 10px;
+  position: relative;
+  line-height: 1.3;
+}
 .desalonecenter{
   width:40%;
 
@@ -751,6 +766,16 @@ display:inline-block;
   position: relative;
 }
 
+.aboutimage{
+  width:50%;
+  height: auto;
+  padding-top:60px;
+  padding-bottom: 5px;
+  position: relative;
+  float:right;
+}
+
+
 .columngroup2{
   width:100%;
   height:auto;
@@ -818,11 +843,25 @@ padding-right:10px;
   position: relative;
 }
 
+.desheaderfull{
+  margin-left: 0;
+/*  margin-right: auto;*/
+  font-family: ApercuBold;
+  width:80%;
+  font-size:10px;
+  color:#848484;
+  padding-top: 60px;
+  padding-bottom: 8px;
+  top:0;
+  position: relative;
+}
+
+
 .aboutheader{
     margin-left: 0;
 /*  margin-right: auto;*/
   font-family: Bookmania;
-  width:40%;
+  width:50%;
   font-size:25px;
   color:#848484;
   padding-top: 60px;
@@ -831,6 +870,18 @@ padding-right:10px;
   position: relative;
 }
 
+.aboutheader2{
+    margin-left: 0;
+/*  margin-right: auto;*/
+  font-family: Bookmania;
+  width:50%;
+  font-size:25px;
+  color:#848484;
+  padding-top: 30px;
+  padding-bottom: 8px;
+  top:0;
+  position: relative;
+}
 .aboutdescription{
   width:30%;
   margin-left: 0;
@@ -870,9 +921,23 @@ padding-right:10px;
   width:80%;
   height: auto;
   position: relative;
+  top:80px;
 }
 .desleft{
   width:40%;
+  margin-left: 0;
+  margin-right: auto;
+  font-family: ApercuRegular;
+  font-size:13px;
+  color:#848484;
+  top:0;
+  padding-bottom: 20px;
+  position: relative;
+  line-height: 1.3;
+}
+
+.desfull{
+  width:60%;
   margin-left: 0;
   margin-right: auto;
   font-family: ApercuRegular;
@@ -909,6 +974,12 @@ padding-right:10px;
   line-height: 1.3;
 }
 
+.columnabout{
+  width:80%;
+  height:auto;
+  position: relative;
+  top:50px;
+}
 .columngroup{
   width:100%;
   height:auto;
@@ -923,6 +994,23 @@ padding-right:10px;
   float: left;
   margin-left: 0;
   width:15%;
+}
+.column3img{
+  position: relative;
+  float:left;
+/*  width:10%;*/
+  padding-right: 0px;
+}
+.columnabout{
+  position: relative;
+  float:left;
+/*  width:10%;*/
+  padding-right: 0px;
+}
+.column4img{
+  position: relative;
+/*  padding-right: 10px;*/
+  width:50%;
 }
 
 .column1img{
@@ -980,8 +1068,8 @@ padding-right:10px;
 }
 
 .insta{
-  width:50px;
-  height: 50px;
+  width:40px;
+  height: 40px;
   position: absolute;
   /*float:left;*/
   opacity: 1;
@@ -1006,8 +1094,8 @@ padding-right:10px;
   left:0;
   overflow: hidden;
   /* Sets the width and height for the images*/
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 /* 
@@ -1028,7 +1116,7 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 
 .hover{
   position: relative;
-  width:15rem;
+  width:10rem;
   height:auto;
   right:15px;
   margin-top:15px;
@@ -1054,8 +1142,8 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   left:0;
   overflow: hidden;
   /* Sets the width and height for the images*/
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 /* 
@@ -1091,8 +1179,8 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   left:0;
   overflow: hidden;
   /* Sets the width and height for the images*/
-  width: 55px;
-  height: 45px;
+  width: 45px;
+  height: 35px;
 }
 
 /* 
@@ -1121,6 +1209,15 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   opacity: 0;
 }
 
+.aboutimage{
+  width:400px;
+  height: auto;
+  padding-top:60px;
+  padding-bottom: 5px;
+  position: relative;
+  float:left;
+}
+
 .show_hide{
   opacity: 1;
   right:10px;
@@ -1128,6 +1225,9 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 }
 .show_hide img{
   width:40px;
+}
+.columnabout{
+  float:center;
 }
 
  .subheader{
@@ -1150,7 +1250,10 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 
  #title2{
   top:0rem;
-  font-size:45px;
+  width:100%;
+  height:auto;
+  font-size:1.5rem;
+
  }
  .aboutheader{
    width:100%;
@@ -1172,10 +1275,19 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   margin-left:0;
   padding-bottom: 2px;
 }
+  .desalonefull{
+  padding-top: 30px;
+  width:100%;
+  margin-left:0;
+  padding-bottom: 2px;
+}
+
 
 .me2{
   top:100%;
-  width:200px;
+  width:300px;
+  height: auto;
+  position: relative;
 }
 
 .projectimageright{
