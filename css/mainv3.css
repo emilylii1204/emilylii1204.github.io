@@ -6,13 +6,15 @@
   box-sizing: border-box;
 }
 
-html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden; scroll-behavior: smooth; background-color: rgb(243,242,242);}
+html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden; scroll-behavior: smooth; background-color: white;}
 
 /* Changing fonts */
 	@font-face {font-family: "ApercuRegular"; src: url("../fonts/ApercuRegular.ttf"); }
   @font-face {font-family: "ApercuMedium"; src: url("../fonts/ApercuMedium.ttf"); }
 	@font-face {font-family: "ApercuBold"; src: url("../fonts/ApercuBold.ttf"); }
-  @font-face {font-family: "Bookmania"; src: url("../fonts/ Bookmania SemiBold.otf"); }
+  @font-face {font-family: "Bookmania"; src: url("../fonts/NotoSerifTC-SemiBold.otf"); }
+  @font-face {font-family: "Noto"; src: url("../fonts/NotoSerifTC-SemiBold.otf"); }
+   @font-face {font-family: "Value"; src: url("../fonts/value-serif.ttf"); }
  
 
 #wrapper{
@@ -52,8 +54,8 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
 }
 .nav{
 	position:fixed;
-	margin-top:20px;
-	margin-left:10%;
+	margin-top:0px;
+	margin-left:5%;
   margin-right:10%;
   margin-bottom: auto;
 	width:80%;
@@ -70,7 +72,7 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
 .link{
   position: relative;
   right:0;
-  top:60px;
+  top:20px;
   width:80%;
   float:right;
   height:12px;
@@ -80,9 +82,9 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
 
 #home{
 	position:relative;
-  left:0%;
-  width:80px;
-  margin-top:30px;
+  /*left:0%;*/
+  width:60px;
+  margin-top:20px;
   height:auto;
 /*	display: inline-block;*/
  /*  -webkit-transition: all .5s ease-in-out;
@@ -93,8 +95,8 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
 }
 
 .link{
-  margin-top:25px;
-  right:100px;
+  margin-top:15px;
+  right:25px;
   position: fixed;
   margin-left: auto;
   margin-right: auto;
@@ -156,10 +158,10 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
 }
 
 .arrow{
-  padding-top:8%;
+  padding-top:30px;
   padding-bottom: 20px;
   position: relative;
-  width:300px;
+  width:200px;
   height:auto;
   margin-top: auto;
   margin-left: auto;
@@ -219,24 +221,27 @@ span{
 .introbox{
   margin-left:auto;
   margin-right: auto;
-  margin-bottom:auto;
+  margin-top:300px;
+  margin-bottom: auto;
   text-align: center;
   position: relative;
-  top:16rem;
-  width:60%;
+/*  top:16rem;*/
+  width:10043,;
   height:100%;
 	z-index: 180;
 
 }
 
 .intro{
-  margin:20px auto;
-  max-width:500px;
-/*  padding-bottom: 10px;*/
- /* width:auto;*/
+  margin-top:;
+  margin-bottom:auto;
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:600px;
   height:auto;
-	font-family: Bookmania ;
-	font-size: 30px;
+	font-family: ApercuRegular;
+	font-size: 2.7em;
 	color:#848484;
 	line-height: 1.3;
 	z-index:4;
@@ -254,9 +259,9 @@ span{
 
 #container{
   position: relative;
-  top:50vh;
+  top:0;
   display: block;
-  width:90%;
+  width:92%;
   max-width: 120rem;
   margin-left: auto;
   margin-right: auto;
@@ -266,7 +271,7 @@ span{
 
 
 
-.image-gallery{
+#image-gallery{
   padding-bottom: 150px;
   display: grid;
   grid-gap:1.5rem;
@@ -284,7 +289,7 @@ span{
 
 }
 
-.image-gallery a{
+#image-gallery a{
   width:100%;
   z-index: 100;
   height:19.25rem;
@@ -298,7 +303,7 @@ span{
   text-decoration: none;
 }
 
-.image-gallery a i{
+#image-gallery a i{
   font-size:3rem;
   position: relative;
   z-index: 100;
@@ -311,7 +316,7 @@ span{
 
 }
 
-.image-gallery a::before{
+#image-gallery a::before{
   content: ''; 
   position: absolute;
   width:100%;
@@ -323,8 +328,8 @@ span{
   transition: opacity .8s;
 }
 
-.image-gallery a:hover i,
-.image-gallery a:hover::before{
+#image-gallery a:hover i,
+#image-gallery a:hover::before{
 /*  opacity: .4;*/
 }
 
@@ -473,7 +478,7 @@ display:inline-block;
 
 /*nibbles*/
 .innerpages{
-  margin-top:180px;
+  margin-top:150px;
  /* margin-bottom: auto;*/
   margin-left:auto;
   width:100%;
@@ -503,21 +508,32 @@ display:inline-block;
   margin-bottom:auto;*/
 /*  text-align: center;*/
   position: relative;
-  width:65%;
+  width:88%;
   height:100%;
 }
 
 .box{
       width: 500px;
-      height: 100px;
-      background: rgb(243,242,242);
+      height: 20px;
+      background: rgb(246,246,246);
 }
 #title{
   margin:0;
   width:70%;
-  font-size: 70px;
+  font-size: 60px;
   height:auto;
-  font-family: Bookmania ;
+  font-family: Value ;
+  color:#848484;
+  z-index:4;
+  transition: 0.6s;
+}
+
+.subtitle{
+  margin-bottom:7%;
+  width:70%;
+  font-size: 30px;
+  height:auto;
+  font-family: Value ;
   color:#848484;
   z-index:4;
   transition: 0.6s;
@@ -684,6 +700,19 @@ display:inline-block;
   line-height: 1.3;
 }
 
+.desaloneleftless{
+  width:40%;
+  left:0;
+  font-family: ApercuRegular;
+  font-size:13px;
+  color:#848484;
+  top:0;
+  padding-top:20px;
+  padding-bottom: 10px;
+  position: relative;
+  line-height: 1.3;
+}
+
 .desalonefull{
   width:60%;
   left:0;
@@ -712,7 +741,7 @@ display:inline-block;
 
 .middle{
   position: relative;
-  width:65%;
+  width:88%;
   height:auto;
   margin-left: auto;
   margin-right: auto;
@@ -727,6 +756,23 @@ display:inline-block;
   position: relative;
 }
 
+.projectimageapp{
+  width:80%;
+  margin-left: auto;
+  margin-right:auto;
+  position: relative;
+}
+
+.projectimagetwo{
+  width:48.7%;
+  height: auto;
+  display:inline-block;
+  position: relative;
+}
+
+.left{
+  margin-right: 20px;
+}
 
 .projectimageright{
   width:70%;
@@ -738,12 +784,37 @@ display:inline-block;
 }
 
 .projectimagesmall{
-  width:50%;
+  width:30%;
   height: auto;
-  margin-left:50%;
-  padding-top:10px;
+  margin:auto;
   padding-bottom: 5px;
   position: relative;
+}
+
+.gifgallery{
+  position: relative;
+  margin-top:10px;
+  width:100%;
+  height:auto;
+}
+
+.topbreak{
+  margin-top:10px;
+}
+
+.gallerytwo{
+  width:100%;
+  height:auto;
+  position: relative;
+  margin-top:10px;
+  margin-bottom: 7px;
+}
+
+.projectimagegallery{
+  width:33.2%;
+  height: auto;
+  display:inline-block;
+  margin:0;
 }
 
 .projectimagesmallnoresize{
@@ -780,7 +851,92 @@ display:inline-block;
   width:100%;
   height:auto;
   position: relative;
+  /*margin-bottom: 80px;*/
 }
+
+.textimage{
+  width:100%;
+  height:auto;
+  position: relative;
+  margin-top:7%;
+  margin-bottom:7%;
+}
+
+.descriptioncontent{
+  width:40%;
+  height:auto;
+  float:left;
+  position: relative;
+  font-family: ApercuRegular;
+  font-size:14px;
+  color:#848484;
+  line-height: 1.3;
+}
+
+.descriptioncontent em{
+  font-size:18px;
+  line-height: 1.8;
+}
+
+.textimagephoto{
+  width:100%;
+  padding-left:20px;
+  height:auto;
+}
+
+
+.columndes{
+  width:100%;
+  margin-top:7%;
+  height:auto;
+  position: relative;
+  padding-bottom: 15%;
+  font-size:14px;
+  color:#848484;
+  /*margin-bottom: 80px;*/
+}
+
+.column0des{
+  position: relative;
+  float:left;
+  width:50%;
+  font-family: ApercuRegular;
+  height:auto;
+} 
+
+.column1des{
+  position: relative;
+  float:left;
+  width:23%;
+  font-family: ApercuRegular;
+  height:auto;
+}
+.column2des{
+  position: relative;
+  width:23%;
+  height:auto;
+
+  line-height: 1.4;
+  font-family: ApercuRegular;
+  float:right;
+  color:#848484;
+}
+
+.column2des em{
+  color: #CDCDCD;
+}
+
+/*
+.column2desin{
+  color:rgb(221,221,221);
+  font-family: ApercuRegular;
+}
+
+.column2desincontent{
+  color:#848484;
+  font-family: ApercuRegular;
+}
+*/
 
 .projectimageleft{
   width:70%;
@@ -808,7 +964,7 @@ padding-right:10px;
   margin-left: 30%;
 /*  margin-right: auto;*/
   font-family: ApercuBold;
-  width:40%;
+  width:30%;
   font-size:10px;
   color:#848484;
   padding-top: 60px;
@@ -816,6 +972,31 @@ padding-right:10px;
   top:0;
   position: relative;
 }
+
+.midheader{
+  font-family: ApercuBold;
+  width:30%;
+  font-size:15px;
+  color:#848484;
+  padding-top: 20px;
+  padding-bottom: 8px;
+  position: relative;
+}
+
+.reproduction{
+  font-family: ApercuRegular;
+ /* width:30%;*/
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  height:auto;
+  text-align: center;
+  font-size:15px;
+  color:#848484;
+  margin-top: 50px;
+  position: relative;
+}
+
 
 .des{
   width:40%;
@@ -925,10 +1106,11 @@ padding-right:10px;
 }
 .desleft{
   width:40%;
+  margin-top:15px;
   margin-left: 0;
   margin-right: auto;
   font-family: ApercuRegular;
-  font-size:13px;
+  font-size:14px;
   color:#848484;
   top:0;
   padding-bottom: 20px;
@@ -1034,6 +1216,8 @@ padding-right:10px;
   position: relative;
   width:49%;
 }
+
+
 
 .list{
   width:100px;
@@ -1378,7 +1562,7 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 }
 
 
-  .image-gallery{
+  #image-gallery{
       grid-template-areas: 
             'work_nibble work_nibble work_nibble work_nibble'
             'work_sugar work_sugar work_sugar work_sugar'
@@ -1391,7 +1575,7 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 
   }
 
-.image-gallery a{
+#image-gallery a{
   height: 20rem;
 }
   .work_nibble{
@@ -1406,10 +1590,11 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 .introsub{
   font-size:15px;
 }
-  .introbox{
+  .introbox{  
+    margin-top:150px;
 
-  margin-bottom:auto;
-  top:100px;
+/*  margin-bottom:auto;*/
+/*  top:100px;*/
   width:80%;
   height:100%;
   }
@@ -1451,7 +1636,7 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 }
 
 #container{
-  top:30vh;
+/*  top:30vh;*/
 
   }
 #wrapper2{

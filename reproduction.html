@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Emily Li</title>
+  	<meta charset="utf-8">  
+<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='./css/reset.css' media='all' rel='stylesheet' type='text/css' />
+    <link href='./css/mainv3.css' media='all' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="https://use.typekit.net/zzg4edb.css">
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  <style>
+    /* Your optional CSS styles go here */
+  </style>
+</head>
+
+<body>
+<!--   <footer>
+    <a class="linkedin" href="">linkedin</a>
+    <a class="instagram" href="#aboutme">instagram</a>
+    <p class="email">emilylii.1204@gmail.com</p>
+</footer> -->
+
+	<div id="wrapper3">
+    
+    <div class="nav">
+      <a href="index.html">
+        <img id="home" src="./img/icon3.png">
+      </a>
+      <a href="#" class="show_hide"><img src="./img/menuhover.gif" width="40" height="40"></a>
+        <div class="list">
+       <!--    <div class="rect"></div> -->
+          <a class="menu" href="#container">design</a><!-- 
+          <a class="menu" href="#aboutme">illustration</a> -->
+          <a class="menu" href="about.html">about</a>
+        </div>
+      <div class="link">
+        <a class="linkbut space" href="about.html">about</a>
+        <a class="linkbut space" href="https://www.etsy.com/hk-en/shop/EmilyLiDesign?ref=simple-shop-header-name&listing_id=916436597">shop</a>
+        <a class="linkbut space" href="index.html#container">design</a>
+      </div>
+    </div>
+
+
+    <div class="innerpages">
+        <div class="top">
+         <div class="box"></div>
+          <div id="title">Local Nibbles: </div>
+          <p class="subtitle">Cantonese Edition (Behind the Scenes)</p>
+
+          <p class="desheaderleft"> REPRODUCING CALENDARS DURING THE PANDEMIC</p>
+          <p class="desleft"> Reproduced 48 calendars at the comfort of my home and sold them online. </p>
+          <div class=columngroup2>
+            <img class="projectimage column3img" src="./img/nibbles/re4.jpg">
+            <img class="projectimage column4img" src="./img/nibbles/re5.jpg">
+          </div>
+
+          <p class="desheaderleft"> PROCESS</p>
+          <p class="desleft"> Outsourced printing and handmade cover with chipboard and book cloth. Cover is carved on a rubber stamp and rolled with white water based screen printing ink. The cover and interior are bind with a gold color 40mm metal screw. </p>
+          <img class="projectimage " src="./img/nibbles/process.jpg">
+          <img class="projectimage " src="./img/nibbles/process3.jpg">
+          <div class=columngroup2>
+            <img class="projectimage column3img" src="./img/nibbles/re1.jpg">
+            <img class="projectimage column4img" src="./img/nibbles/re2.jpg">
+          </div>
+          <img class="projectimage" src="./img/nibbles/re3.jpg">
+          <img class="projectimage " src="./img/nibbles/process4.jpg">
+          <p class="desaloneleft"> Working from home has its perks </p>
+          <img class="projectimage " src="./img/nibbles/process5.jpg">
+
+          
+
+
+         <div class="reproduction"> 
+          <a href="https://www.etsy.com/shop/EmilyLiDesign">click on "shop" on the top right corner to the etsy store</a>
+        </div>
+
+        </div>
+    <div class="footer">
+      <div class="hover">
+        <figure class="swap-on-hover">
+          <a href="https://www.instagram.com/emilylilidesign/">
+          <img  class="swap-on-hover__front-image" src="./img/iconinst.png"/>
+          <img class="swap-on-hover__back-image" src="./img/iconinsthover.png"/>
+          </a>
+        </figure>
+
+        <figure class="swap-on-hover2">
+          <a href="https://hk.linkedin.com/in/emily-li-b479ab157">
+          <img  class="swap-on-hover__front-image2" src="./img/iconlink.png"/>
+          <img class="swap-on-hover__back-image2" src="./img/iconlinkhover.png"/>
+          </a>
+        </figure>
+        <figure class="swap-on-hover3">
+          <a href="mailto:emilylii.1204@gmail.com">
+          <img  class="swap-on-hover__front-image3" src="./img/iconemail.png"/>
+          <img class="swap-on-hover__back-image3" src="./img/iconemailhover.png"/>
+          </a>
+        </figure>
+      </div>
+    </div>
+   </div>
+    
+  </div>
+
+  <script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("title").style.fontSize = "30px";
+    document.getElementById("descriptiontitle").style.fontSize = "15px";
+  } else {
+    document.getElementById("title").style.fontSize = "70px";
+    document.getElementById("descriptiontitle").style.fontSize = "20px";
+
+  }
+    //   if ($('#title').isOnScreen() == true) {
+    //     $('.box').hide();
+    // }
+    // else{
+    //     $('.box').show();
+    // }
+};
+
+$(document).ready(function() {
+
+    $(".list").hide();
+    $(".show_hide").show();
+
+    $('.show_hide').click(function() {
+          
+         //$(".slidingDiv").slideToggle();
+         var isvisible = $(this).next('.list').is(':visible');
+      
+         if ( isvisible ) {
+           $(this).next('.list').hide();
+         } else{
+           $(this).next('.list').show(); 
+         }
+    });
+
+});
+
+  </script>
+
+</body>
+
+
+</html>
