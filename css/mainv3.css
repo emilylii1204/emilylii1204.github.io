@@ -42,7 +42,6 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
   position:absolute;
   width:100%;
   height:auto;
-  padding-bottom: 25rem;
 
 }
 
@@ -83,7 +82,7 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
 #home{
 	position:relative;
   /*left:0%;*/
-  width:60px;
+  width:50px;
   margin-top:20px;
   height:auto;
 /*	display: inline-block;*/
@@ -92,6 +91,7 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
    -ms-transition: all .5s ease-in-out ;
    -o-transition: all .5s ease-in-out ;
    transition: all .5s ease-in-out ;*/
+
 }
 
 .link{
@@ -221,7 +221,7 @@ span{
 .introbox{
   margin-left:auto;
   margin-right: auto;
-  margin-top:300px;
+  margin-top:100px;
   margin-bottom: auto;
   text-align: center;
   position: relative;
@@ -238,9 +238,9 @@ span{
   position: relative;
   margin-left:auto;
   margin-right:auto;
-  max-width:600px;
+  max-width:80%;
   height:auto;
-	font-family: ApercuRegular;
+	font-family: Value;
 	font-size: 2.7em;
 	color:#848484;
 	line-height: 1.3;
@@ -248,7 +248,7 @@ span{
 }
 
 .introsub{
-  font-family: ApercuRegular;
+  font-family: Value;
   font-size:15px;
   color:#848484;
   top:0;
@@ -412,13 +412,13 @@ span{
 }
 .work_didot{
   grid-area: work_didot;
-  background-image: url("../img/didot/5.jpg");
+  background-image: url("../img/road/ad1.jpg");
 /*    min-width:51.5rem;*/
 }
 
 .work_didot:hover{
   grid-area: work_didot;
-  background-image: url("../img/work_didot.jpg");
+  background-image: url("../img/road/foodtruck.jpg");
   transition-duration: 1s;
 /*    min-width:51.5rem;*/
 }
@@ -504,12 +504,9 @@ display:inline-block;
 .top{
   margin-left:auto;
   margin-right: auto;
-/*  margin-top:auto;
-  margin-bottom:auto;*/
-/*  text-align: center;*/
   position: relative;
   width:88%;
-  height:100%;
+  height:auto;
 }
 
 .box{
@@ -517,8 +514,9 @@ display:inline-block;
       height: 20px;
       background: rgb(246,246,246);
 }
-#title{
-  margin:0;
+
+#title3{
+  margin-bottom:2%;
   width:70%;
   font-size: 60px;
   height:auto;
@@ -526,6 +524,79 @@ display:inline-block;
   color:#848484;
   z-index:4;
   transition: 0.6s;
+  position: relative;
+}
+
+#title{
+  margin-bottom:10%;
+  width:70%;
+  font-size: 60px;
+  height:auto;
+  font-family: Value ;
+  color:#848484;
+  z-index:4;
+  transition: 0.6s;
+  position: relative;
+}
+
+.columndes{
+  width:100%;
+  margin-top:7%;
+  height:auto;
+  position: relative;
+/*  margin-bottom: 30px;*/
+  font-size:14px;
+  color:#848484;
+  /*margin-bottom: 80px;*/
+}
+
+.column0des{
+  position: relative;
+  float:left;
+  width:50%;
+  font-family: ApercuRegular;
+  height:auto;
+} 
+
+.column1des{
+  position: relative;
+  float:left;
+  width:23%;
+  font-family: ApercuRegular;
+  height:auto;
+}
+
+.column1des1{
+  position: relative;
+  float:left;
+  line-height:1.4;
+  width:15%;
+  font-family: ApercuRegular;
+  height:auto;
+}
+
+.column2des{
+  position: relative;
+  width:23%;
+  height:auto;
+  line-height: 1.4;
+  font-family: ApercuRegular;
+  float:right;
+  color:#848484;
+}
+
+.column2des1{
+  position: relative;
+  width:60%;
+  height:auto;
+  line-height: 1.4;
+  font-family: ApercuRegular;
+  float:right;
+  color:#848484;
+}
+
+.column2des em{
+  color: #CDCDCD;
 }
 
 .subtitle{
@@ -541,12 +612,12 @@ display:inline-block;
 
 #title2{
   margin:0;
-  top:2rem;
+  top:1rem;
   position: relative;
-  width:80%;
+  width:100%;
   font-size: 40px;
   height:auto;
-  font-family: Bookmania ;
+  font-family: Value ;
   color:#848484;
   z-index:4;
   transition: 0.6s;
@@ -568,9 +639,8 @@ display:inline-block;
 }
 .subheader2{
   position: relative;
-  top:100px;
-  /*margin-left:30%;*/
-  padding-top:35px;
+  /*margin-left:30%;*//*
+  padding-top:15px;*/
   line-height: 1.4;
   width:70%;
   font-size: 15px;
@@ -755,6 +825,35 @@ display:inline-block;
   padding-bottom: 5px;
   position: relative;
 }
+.projectimagemedium{
+  width:80%;
+  height: auto;
+  padding-top:10px;
+  padding-bottom: 5px;
+  position: relative;
+}
+.projectimagesmaller{
+  width:60%;
+  height: auto;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:0;
+  margin-bottom:0;
+  padding-top:10px;
+  padding-bottom: 5px;
+  position: relative;
+}
+.projectimagesmaller2{
+  width:70%;
+  height: auto;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:0;
+  margin-bottom:0;
+  padding-top:10px;
+  padding-bottom: 5px;
+  position: relative;
+}
 
 .projectimageapp{
   width:80%;
@@ -782,6 +881,9 @@ display:inline-block;
   padding-bottom: 5px;
   position: relative;
 }
+.projectimagemedium{
+  width:100%;
+  }
 
 .projectimagesmall{
   width:30%;
@@ -799,7 +901,11 @@ display:inline-block;
 }
 
 .topbreak{
-  margin-top:10px;
+  margin-top:7%;
+}
+
+.bottombreak{
+  margin-bottom:7%;
 }
 
 .gallerytwo{
@@ -838,7 +944,7 @@ display:inline-block;
 }
 
 .aboutimage{
-  width:50%;
+  width:40%;
   height: auto;
   padding-top:60px;
   padding-bottom: 5px;
@@ -846,12 +952,21 @@ display:inline-block;
   float:right;
 }
 
+.aboutmegroup{
+  position: relative;
+  width:100%;
+  padding:0;
+  height:auto;
+  padding-top:2rem;
+  padding-bottom: 2rem;
+}
 
 .columngroup2{
   width:100%;
   height:auto;
   position: relative;
-  /*margin-bottom: 80px;*/
+  margin:0;/*
+  margin-bottom: 80px;*/
 }
 
 .textimage{
@@ -873,6 +988,51 @@ display:inline-block;
   line-height: 1.3;
 }
 
+.descriptioncontent2{
+  width:40%;
+  height:auto;
+  float:left;
+  position: relative;
+  font-family: ApercuRegular;
+  font-size:14px;
+  color:#848484;
+  line-height: 1.3;
+  margin-top:7%;
+  margin-bottom: 4%;
+
+}
+
+.column0descontent{
+  width:40%;
+  height:auto;
+  float:left;
+  position: relative;
+  font-family: ApercuRegular;
+  font-size:18px;
+  color:#848484;
+  line-height: 1.3;
+  margin-top:7%;
+  margin-bottom: 4%;
+}
+
+.column0descontent1{
+  width:23%;
+  height:auto;
+  float:left;
+  position: relative;
+  font-family: ApercuRegular;
+  font-size:18px;
+  color:#848484;
+  line-height: 1.3;
+  /*margin-top:7%;*/
+  margin-bottom: 4%;
+}
+
+.descriptioncontent2 em{
+  font-size:18px;
+  line-height: 1.8;
+}
+
 .descriptioncontent em{
   font-size:18px;
   line-height: 1.8;
@@ -885,46 +1045,6 @@ display:inline-block;
 }
 
 
-.columndes{
-  width:100%;
-  margin-top:7%;
-  height:auto;
-  position: relative;
-  padding-bottom: 15%;
-  font-size:14px;
-  color:#848484;
-  /*margin-bottom: 80px;*/
-}
-
-.column0des{
-  position: relative;
-  float:left;
-  width:50%;
-  font-family: ApercuRegular;
-  height:auto;
-} 
-
-.column1des{
-  position: relative;
-  float:left;
-  width:23%;
-  font-family: ApercuRegular;
-  height:auto;
-}
-.column2des{
-  position: relative;
-  width:23%;
-  height:auto;
-
-  line-height: 1.4;
-  font-family: ApercuRegular;
-  float:right;
-  color:#848484;
-}
-
-.column2des em{
-  color: #CDCDCD;
-}
 
 /*
 .column2desin{
@@ -984,7 +1104,7 @@ padding-right:10px;
 }
 
 .reproduction{
-  font-family: ApercuRegular;
+  font-family: Value;
  /* width:30%;*/
   margin-left:auto;
   margin-right:auto;
@@ -1041,7 +1161,7 @@ padding-right:10px;
 .aboutheader{
     margin-left: 0;
 /*  margin-right: auto;*/
-  font-family: Bookmania;
+  font-family: Value;
   width:50%;
   font-size:25px;
   color:#848484;
@@ -1054,7 +1174,7 @@ padding-right:10px;
 .aboutheader2{
     margin-left: 0;
 /*  margin-right: auto;*/
-  font-family: Bookmania;
+  font-family: Value;
   width:50%;
   font-size:25px;
   color:#848484;
@@ -1064,14 +1184,13 @@ padding-right:10px;
   position: relative;
 }
 .aboutdescription{
-  width:30%;
+  width:50%;
   margin-left: 0;
   margin-right: auto;
-  font-family: ApercuRegular;
-  font-size:13px;
+  font-family: Value;
+  font-size:16px;
   color:#848484;
-  top:0;
-  padding-bottom: 20px;
+  padding-top:1rem;
   position: relative;
   line-height: 1.6;
 }
@@ -1080,6 +1199,7 @@ padding-right:10px;
   width:70%;
   margin-left: 0;
   margin-right: auto;
+  padding-top:1rem;
   font-family: ApercuRegular;
   font-size:13px;
   color:#848484;
@@ -1091,6 +1211,7 @@ padding-right:10px;
 
 .left{
   float:left;
+
 }
 
 .right{
@@ -1099,7 +1220,7 @@ padding-right:10px;
 
 
 .aboutbox{
-  width:80%;
+  width:60%;
   height: auto;
   position: relative;
   top:80px;
@@ -1114,6 +1235,33 @@ padding-right:10px;
   color:#848484;
   top:0;
   padding-bottom: 20px;
+  position: relative;
+  line-height: 1.3;
+}
+
+.desleftalone{
+  width:40%;
+  margin-top:4%;
+  margin-left: 0;
+  margin-right: auto;
+  font-family: ApercuRegular;
+  font-size:14px;
+  color:#848484;
+  top:0;
+  padding-bottom: 20px;
+  position: relative;
+  line-height: 1.3;
+}
+
+.title2des{
+  width:100%;
+  margin-left: 0;
+  float:left;
+  margin-right: auto;
+  font-family: ApercuBold;
+  font-size:12px;
+  color:#848484;
+  top:0;
   position: relative;
   line-height: 1.3;
 }
@@ -1205,6 +1353,7 @@ padding-right:10px;
   position: relative;
   padding-right: 10px;
   width:45%;
+  float:right;
 }
 .column3img{
   position: relative;
@@ -1394,7 +1543,8 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 }
 
 .aboutimage{
-  width:400px;
+  width:100px;
+  position: relative;
   height: auto;
   padding-top:60px;
   padding-bottom: 5px;
@@ -1605,7 +1755,7 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 
   .nav{
   	transition-duration: 3s;
-    position: relative;
+    position: fixed;
 
   }
 
@@ -1631,7 +1781,7 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 #home{
   position:relative;
   margin-left: auto;
-  width:80px;
+  width:50px;
   margin-right:auto;
 }
 
