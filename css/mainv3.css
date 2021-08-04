@@ -1717,6 +1717,10 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   height:100%;
 }
 
+.middle{
+  width:92%;
+}
+
 #title{
   width:90%; 
   font-size:60px;
