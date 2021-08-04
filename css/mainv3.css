@@ -1713,7 +1713,7 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 }
 
 .top{
-  width:80%;
+  width:92%;
   height:100%;
 }
 
@@ -1772,6 +1772,10 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   .nav{
   	transition-duration: 3s;
     position: fixed;
+    margin-left:2%;
+    width:95%;
+    margin-right:2%;
+
 
   }
 
