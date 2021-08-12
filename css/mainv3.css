@@ -82,7 +82,7 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
 #home{
 	position:relative;
   /*left:0%;*/
-  width:50px;
+  width:60px;
   margin-top:20px;
   height:auto;
 /*	display: inline-block;*/
@@ -226,8 +226,8 @@ span{
   text-align: center;
   position: relative;
 /*  top:16rem;*/
-  width:10043,;
-  height:100%;
+  width:80%;
+  height:auto;
 	z-index: 180;
 
 }
@@ -312,7 +312,7 @@ span{
   color:rgba(255,255,255,.6);
   border-radius:.4rem;
   opacity: 0;
-  transition: opacity .5s;
+  transition: opacity .2s;
 
 }
 
@@ -325,7 +325,7 @@ span{
   left:0;
 /*  background-color: rgba(0,0,0,.8);*/
   opacity: 0;
-  transition: opacity .8s;
+  transition: opacity .3s;
 }
 
 #image-gallery a:hover i,
@@ -391,8 +391,8 @@ span{
 }
 
 .work_tokyo:hover{
-  background-image: url("../img/work_5.gif");
-  transition-duration: 1s;
+  background-image: url("../img/sugar/1.jpg");
+  transition-duration: .5s;
 }
 
 .work_care{
@@ -831,6 +831,7 @@ display:inline-block;
   padding-top:10px;
   padding-bottom: 5px;
   position: relative;
+  z-index:5;
 }
 .projectimagesmaller{
   width:60%;
@@ -1765,7 +1766,7 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 
 /*  margin-bottom:auto;*/
 /*  top:100px;*/
-  width:80%;
+  width:98%;
   height:100%;
   }
 
