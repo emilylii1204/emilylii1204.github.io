@@ -281,8 +281,6 @@ span{
             'work_nibble work_nibble work_sugar work_sugar'
             'work_nibble work_nibble work_didot work_didot'
             'work_archive work_care work_care work_care'
-            'work_archive work_care work_care work_care'
-
             'work_pur work_pur work_nourish work_nourish'
             'work_tokyo work_tokyo work_nourish work_nourish'
       ;
@@ -379,7 +377,7 @@ span{
 }
 
 .work_sugar:hover{
-  background-image: url("../img/work_2.gif");
+  background-image: url("../img/tokyo/logocover.gif");
   transition-duration: 1s;
 }
 
@@ -425,11 +423,11 @@ span{
 
 .work_archive{
   grid-area: work_archive;
-  background-image: url("../img/work_4.gif");
+  background-image: url("../img/work_4_hover.gif");
 }
 
 .work_archive:hover{
-  background-image: url("../img/work_4_hover.gif");
+  background-image: url("../img/work_4.gif");
 }
 
 
