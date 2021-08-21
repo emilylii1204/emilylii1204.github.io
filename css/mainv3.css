@@ -411,7 +411,7 @@ span{
 }
 */
 .work_nibble:hover{
-  background-image: url("../img/work_1_hover.gif");
+  background-image: url("../img/nibbles/nibopen.gif");
   transition-duration: 1s;
   
 }
@@ -480,7 +480,7 @@ span{
 
 .work_archive{
   grid-area: work_archive;
-  background-image: url("../img/ease/easelogo.gif");
+  background-image: url("../img/ease/easelogocover.gif");
 }
 
 .work_archive:hover{
