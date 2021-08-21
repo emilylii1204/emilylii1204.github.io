@@ -132,12 +132,14 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
   width:30px;
   height: auto;
   display:inline-block;
+
 /*  background: url("images/menu.png") no-repeat;*/
 }
 
 .show_hide img{
   width:45px;
   padding-bottom:10px;
+    z-index: 1000;
 }
 .menuhover{
   opacity: 0;
@@ -532,6 +534,16 @@ display:inline-block;
 
 }
 
+.innerpages2{
+  margin-top:150px;
+ /* margin-bottom: auto;*/
+  margin-left:auto;
+  width:100%;
+  height:auto;
+  padding-bottom: 10rem;
+  position: relative;
+}
+
 .footer {
   position: absolute;
   right: 0;
@@ -572,6 +584,30 @@ display:inline-block;
 }
 
 #title{
+  margin-bottom:10%;
+  width:70%;
+  font-size: 60px;
+  height:auto;
+  font-family: Value ;
+  color:#848484;
+  z-index:4;
+  transition: 0.6s;
+  position: relative;
+}
+
+#titlenib{
+  margin-bottom:10%;
+  width:70%;
+  font-size: 60px;
+  height:auto;
+  font-family: Value ;
+  color:#848484;
+  z-index:4;
+  transition: 0.6s;
+  position: relative;
+}
+
+#titleroad{
   margin-bottom:10%;
   width:70%;
   font-size: 60px;
@@ -868,6 +904,8 @@ display:inline-block;
   padding-bottom: 5px;
   position: relative;
 }
+
+
 
 .projectimagedes3{
   width:80%;
@@ -1596,7 +1634,7 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
  .me{
   opacity: 0;
  }
@@ -1679,6 +1717,9 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   padding-bottom: 2px;
 }
 
+#titleroad{
+  font-size: 55px;
+}
 
 .me2{
   top:100%;
@@ -1760,6 +1801,7 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 .desleft{
   width:100%;
   margin-left:0;
+  margin-top:5px;
   padding-bottom: 2px;
 }
 
@@ -1792,6 +1834,17 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 
 .box{
   height: 50px;
+}
+
+.wheelfirst{
+  width:30%;
+  display: block;
+  float:left;
+  margin-bottom:50px;
+}
+
+.wheelright{
+  float:top;
 }
 
 
@@ -1836,6 +1889,16 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
     font-size: 30px;
   }
 
+  .projectimagedes3{
+  width:100%;
+}
+
+.aboutmegroup{
+  padding-top:1.3rem;
+}
+
+
+
   .nav{
   	transition-duration: 3s;
     position: fixed;
@@ -1846,8 +1909,14 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 
   }
 
+
 .innerpages{
   margin-top:100px;
+  padding-bottom: 3rem;
+}
+.innerpages2{
+  margin-top:100px;
+  padding-bottom: 7rem;
 }
 
 {
@@ -1869,7 +1938,7 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   position:relative;
   margin-left: auto;
   width:50px;
-  left:25px;
+  left:10px;
   margin-right:auto;
 }
 
@@ -1884,6 +1953,63 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 .hover{
   right:21px;
 }
+
+@media screen and (max-width: 800px) {
+.column0des{
+  width:60%;
+}
+.column1des{
+  width:60%;
+  top:10px;
+}
+.column2des{
+  width:20%;
+  top:15px;
+  font-size: 12px;
+}
+.column3img{
+  position: relative;
+  width:100%;
+  margin-right:0;
+}
+.column4img{
+  position: relative;
+  width:100%;
+  margin-right:0;
+}
+
+.title2des{
+  font-size:10px;
+  }
+
+.subtitle{
+  font-size: 20px;
+}
+
+#titlenib{
+  margin-bottom:2%;
+}
+
+.reproduction{
+  font-size:13px;
+  color:#848484;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.wheelfirst{
+  width:50%;
+  display: block;
+  float:left;
+  margin-bottom:50px;
+}
+
+.wheelright{
+  float:right;
+}
+
+
+  }
 
   /*@media screen and (max-width: 500px) {
   #home{
