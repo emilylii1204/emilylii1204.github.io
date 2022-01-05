@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Emily Li</title>
+  	<meta charset="utf-8">  
+<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='./css/reset.css' media='all' rel='stylesheet' type='text/css' />
+    <link href='./css/mainv3.css' media='all' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="https://use.typekit.net/zzg4edb.css">
+    <link rel="icon" href="./img/favicon2.png" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  <style>
+    /* Your optional CSS styles go here */
+  </style>
+</head>
+
+<body>
+<!--   <footer>
+    <a class="linkedin" href="">linkedin</a>
+    <a class="instagram" href="#aboutme">instagram</a>
+    <p class="email">emilylii.1204@gmail.com</p>
+</footer> -->
+
+	<div id="wrapper">
+    
+    <div class="nav">
+      <a href="index.html">
+        <img id="home" src="./img/homelogo.png">
+      </a>
+      <a href="#" class="show_hide"><img src="./img/menuhover.gif"></a>
+        <div class="list">
+          <a class="menu" href="index.html#image-gallery">design</a>
+          <a class="menu" href="about.html">about</a>
+          <a class="menu" href="https://www.etsy.com/shop/EmilyLiDesign">shop</a>
+        </div>
+      <div class="link">
+        <a class="linkbut space" href="about.html">about</a>
+        <a class="linkbut space" href="https://www.etsy.com/shop/EmilyLiDesign">shop</a>
+        <a class="linkbut space" href="#image-gallery">design</a>
+      </div>
+    </div>
+
+
+    <div class="innerpages">
+        <div class="top">
+          <div id="titleroad">The Roadrunner</div>
+          <div class=columndes>
+            <p class=" column0des">PROJECT DETAILS</p>
+            <p class=" column1des">Roadrunner is a tailor made meal subscription that offers nutritious and delicious daily meals that is ordered and picked up at a food stop around New York City. To help those who are too busy to decide where and what to eat while also achieving their health and fitness goals.</p>
+            <p class=" column2des"> <em>Industry</em> <br>Food & Drink<br><em>Category</em><br>Branding Strategy<br>Advertising Design <br>Logo Design<br>Identity Design</p>
+          </div>
+        </div>
+        <div class="middle"><!-- 
+         <img class="projectimage topbreak" src="./img/road/logo.jpg">  -->
+         <img class="projectimage topbreak" src="./img/road/foodtruck.jpg"> 
+
+          <p class="descriptioncontent2"><em>The Roadrunners</em><br>They are the girls and boys, men and women who have packed schedules and meetings back to back, who choose convenience over health. </p>
+         <img class="projectimage" src="./img/road/draft2.jpg">
+         <img class="projectimage" src="./img/road/draft1.jpg">
+         <img class="projectimage" src="./img/road/logo_final.jpg">
+
+
+         
+         <img class="projectimage topbreak" src="./img/road/frontside.gif">
+        <img class="projectimagemedium" src="./img/road/food_final.jpg">
+
+        <img class="projectimage" src="./img/road/website.gif">
+
+<!-- 
+         <img class="projectimage" src="./img/road/questions.jpg"> -->
+         <img class="projectimage topbreak" src="./img/road/ad2.jpg">
+         <img class="projectimage" src="./img/road/ad3.jpg">
+         <img class="projectimage" src="./img/road/ad12.jpg">
+
+
+         
+ 
+
+
+        </div>
+    </div>
+<div class="footer">
+      <div class="hover">
+        <figure class="swap-on-hover">
+          <a href="https://www.instagram.com/emilylilidesign/">
+          <img  class="swap-on-hover__front-image" src="./img/iconinst.png"/>
+          <img class="swap-on-hover__back-image" src="./img/iconinst.png"/>
+          </a>
+        </figure>
+
+        <figure class="swap-on-hover2">
+          <a href="https://hk.linkedin.com/in/emily-li-b479ab157">
+          <img  class="swap-on-hover__front-image2" src="./img/iconlink.png"/>
+          <img class="swap-on-hover__back-image2" src="./img/iconlink.png"/>
+          </a>
+        </figure>
+        <figure class="swap-on-hover3">
+          <a href="mailto:emilylii.1204@gmail.com">
+          <img  class="swap-on-hover__front-image3" src="./img/iconemail.png"/>
+          <img class="swap-on-hover__back-image3" src="./img/iconemail.png"/>
+          </a>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("titleroad").style.fontSize = "30px";
+    document.getElementById("descriptiontitle").style.fontSize = "15px";
+  } else {
+    document.getElementById("titleroad").style.fontSize = "55px";
+    document.getElementById("descriptiontitle").style.fontSize = "20px";
+
+  }
+    //   if ($('#title').isOnScreen() == true) {
+    //     $('.box').hide();
+    // }
+    // else{
+    //     $('.box').show();
+    // }
+}
+
+$(document).ready(function() {
+
+    $(".list").hide();
+    $(".show_hide").show();
+
+    $('.show_hide').click(function() {
+          
+         //$(".slidingDiv").slideToggle();
+         var isvisible = $(this).next('.list').is(':visible');
+      
+         if ( isvisible ) {
+           $(this).next('.list').hide();
+         } else{
+           $(this).next('.list').show(); 
+         }
+    });
+
+});
+  </script>
+
+</body>
+
+
+</html>

@@ -9,12 +9,14 @@
 html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden; scroll-behavior: smooth; background-color: white;}
 
 /* Changing fonts */
-	@font-face {font-family: "ApercuRegular"; src: url("../fonts/ApercuRegular.ttf"); }
+	@font-face {font-family: "ApercuRegular"; src: url("../fonts/Montserrat-SemiBold.ttf"); }
   @font-face {font-family: "ApercuMedium"; src: url("../fonts/ApercuMedium.ttf"); }
 	@font-face {font-family: "ApercuBold"; src: url("../fonts/ApercuBold.ttf"); }
   @font-face {font-family: "Bookmania"; src: url("../fonts/NotoSerifTC-SemiBold.otf"); }
   @font-face {font-family: "Noto"; src: url("../fonts/NotoSerifTC-SemiBold.otf"); }
    @font-face {font-family: "Value"; src: url("../fonts/value-serif.ttf"); }
+   @font-face {font-family: "MonSB"; src: url("../fonts/Montserrat-SemiBold.ttf"); }
+   @font-face {font-family: "Roz"; src: url("../fonts/RozhaOne-Regular.ttf"); }
  
 
 #wrapper{
@@ -24,6 +26,9 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
 	width:100%;
 	height:auto;
   padding-bottom: 2rem;
+  
+  cursor:url(../img/cursor1.png), auto;
+  color:#424141;
 
 }
 #wrapper3{
@@ -33,7 +38,18 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
   width:100%;
   height:auto;
   padding-bottom: 0rem;
+ cursor:url(../img/cursor1.png), auto;
+}
 
+#wrapper3re{
+  margin:0;
+  padding:0;
+  position:absolute;
+  width:100%;
+  height:auto;
+  padding-bottom: 0rem;
+  background-color: rgb(200, 200, 200);
+ cursor:url(../img/cursor1.png), auto;
 }
 
 #wrapper2{
@@ -42,6 +58,7 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
   position:absolute;
   width:100%;
   height:auto;
+   cursor:url(../img/cursor1.png), auto;
 
 }
 
@@ -59,11 +76,12 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
   margin-bottom: auto;
 	width:100%;
 	height:auto;
-	font-family: ApercuMedium,sans-serif;
+	font-family: MonSB,sans-serif;
 	font-style: normal;
 	font-size: 14px;
 	color:#424141;
-	z-index: 5000;
+	z-index: 5000;  
+  cursor:url(../img/cursor1.png), auto;
 /*	display: inline-block;*/
 }
 
@@ -117,11 +135,23 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
 	display:inline-block;*/
   opacity: 1;/*
   text-align:center;*/
-  font-family:ApercuRegular;
-  font-size: 15px;
+  font-family:MonSB;
+  font-size: 17px;
   z-index: 1000;
-  cursor:url(http://www.picgifs.com/smileys/smileys-and-emoticons/money/smileys-money-671353.gif), auto;
+/*  cursor:url(../img/mycursor2.png), auto;*/
 }
+
+.cursor1{
+  cursor:url(../img/curs2.png), auto;
+}
+
+.cursor2{
+  cursor:url(../img/curs3.png), auto;
+}
+.cursor3{
+  cursor:url(../img/curs1.png), auto;
+}
+
 
 .show_hide{
   opacity: 0;
@@ -162,7 +192,7 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
 }
 
 .contact{
-  color:#848484;
+  color:#424141;
   position: relative;
   float:right;
   padding-right:50px;
@@ -173,7 +203,7 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
   padding-top:30px;
   padding-bottom: 20px;
   position: relative;
-  width:200px;
+  width:300px;
   height:auto;
   margin-top: auto;
   margin-left: auto;
@@ -233,15 +263,16 @@ span{
 .introbox{
   margin-left:auto;
   margin-right: auto;
-  margin-top:100px;
+  margin-top:50px;
   margin-bottom: 50px;
   top:0;
   text-align: center;
   position: relative;
-  width:65%;
-  height:auto;
+  width:75%;
+  height:100%;
   display: block;
 	z-index: 10;
+   cursor:url(../img/cursor1.png), auto;
 
 }
 
@@ -260,7 +291,7 @@ span{
   top:20px;
   margin-bottom:10px;
   display: inline-block;
-  color:#848484;
+  color:#424141;
 }
 
 .wheelfirst{
@@ -299,7 +330,7 @@ span{
   height:auto;
 	font-family: Value;
 	font-size: 2.7em;
-	color:#848484;
+	color:#424141;
 	line-height: 1.3;
 	z-index:4;
 }
@@ -307,7 +338,7 @@ span{
 .introsub{
   font-family: Value;
   font-size:15px;
-  color:#848484;
+  color:#424141;
   top:0;
 }
 
@@ -324,6 +355,7 @@ span{
   margin-right: auto;
 /*  margin-top: 0;*/
   padding: 0 1.5rem;
+   cursor:url(../img/cursor1.png), auto;
 }
 
 
@@ -412,7 +444,7 @@ span{
 */
 .work_nibble:hover{
   background-image: url("../img/nibbles/nibopen.gif");
-  transition-duration: 1s;
+  transition-duration: 0.4s;
   
 }
 
@@ -424,7 +456,7 @@ span{
 
 .work_pur:hover{
   background-image: url("../img/work_7_hover.jpg");
-  transition-duration: 1s;
+  transition-duration: 0.4s;
 
 }
 
@@ -435,7 +467,7 @@ span{
 
 .work_sugar:hover{
   background-image: url("../img/tokyo/logocover.gif");
-  transition-duration: 1s;
+  transition-duration: 0.4s;
 }
 
 
@@ -447,7 +479,7 @@ span{
 
 .work_tokyo:hover{
   background-image: url("../img/sugar/1.jpg");
-  transition-duration: 1s;
+  transition-duration: 0.4s;
 }
 
 .work_care{
@@ -457,7 +489,7 @@ span{
 
 .work_care:hover{
   background-image: url("../img/work_3_hover.jpg");
-  transition-duration: 1s;
+  transition-duration: 0.4s;
 }
 
 .work_dream{
@@ -474,7 +506,7 @@ span{
 .work_didot:hover{
   grid-area: work_didot;
   background-image: url("../img/road/foodtruck.jpg");
-  transition-duration: 1s;
+  transition-duration: 0.4s;
 /*    min-width:51.5rem;*/
 }
 
@@ -490,14 +522,14 @@ span{
 
 .work_nourish{
   grid-area: work_nourish;
-  background-image: url("../img/work_6.gif");
+  background-image: url("../img/nourish/mockup2.jpg");
   min-height:40rem;
 }
 
-.work_nourish_hover{
+.work_nourish:hover{
   grid-area: work_nourish;
-  background-image: url("../img/work_6_hover.gif");
-  transition-duration: 1s;
+  background-image: url("../img/nourish/1.jpg");
+  transition-duration: 0.5s;
   min-height:40rem;
 }
 
@@ -524,13 +556,14 @@ display:inline-block;
 
 /*nibbles*/
 .innerpages{
-  margin-top:150px;
+  margin-top:200px;
  /* margin-bottom: auto;*/
   margin-left:auto;
   width:100%;
   height:auto;
   padding-bottom: 10rem;
   position: relative;
+  cursor:url(../img/cursor1.png), auto;
 
 }
 
@@ -542,6 +575,7 @@ display:inline-block;
   height:auto;
   padding-bottom: 10rem;
   position: relative;
+  cursor:url(../img/cursor1.png), auto;
 }
 
 .footer {
@@ -561,7 +595,7 @@ display:inline-block;
   margin-left:auto;
   margin-right: auto;
   position: relative;
-  width:88%;
+  width:90%;
   height:auto;
 }
 
@@ -572,12 +606,24 @@ display:inline-block;
 }
 
 #title3{
-  margin-bottom:2%;
+  margin-bottom:3%;
   width:70%;
   font-size: 60px;
   height:auto;
-  font-family: Value ;
-  color:#848484;
+  font-family: Roz ;
+  color:#424141;
+  z-index:4;
+  transition: 0.6s;
+  position: relative;
+}
+
+#title3re{
+  margin-bottom:3%;
+  width:100%;
+  font-size: 60px;
+  height:auto;
+  font-family: Roz ;
+  color:#424141;
   z-index:4;
   transition: 0.6s;
   position: relative;
@@ -586,10 +632,10 @@ display:inline-block;
 #title{
   margin-bottom:10%;
   width:70%;
-  font-size: 60px;
+  font-size: 80px;
   height:auto;
-  font-family: Value ;
-  color:#848484;
+  font-family: Roz ;
+  color:#424141;
   z-index:4;
   transition: 0.6s;
   position: relative;
@@ -601,19 +647,19 @@ display:inline-block;
   font-size: 60px;
   height:auto;
   font-family: Value ;
-  color:#848484;
+  color:#424141;
   z-index:4;
   transition: 0.6s;
   position: relative;
 }
 
 #titleroad{
-  margin-bottom:10%;
+  margin-bottom:5%;
   width:70%;
-  font-size: 60px;
+  font-size: 80px;
   height:auto;
-  font-family: Value ;
-  color:#848484;
+  font-family: Roz ;
+  color:#424141;
   z-index:4;
   transition: 0.6s;
   position: relative;
@@ -621,11 +667,11 @@ display:inline-block;
 
 .columndes{
   width:100%;
-  margin-top:7%;
+  margin-top:4%;
   height:auto;
   position: relative;
-  font-size:14px;
-  color:#848484;
+  
+  color:#424141;
   line-height:1.5 ;
 }
 
@@ -633,14 +679,15 @@ display:inline-block;
   position: relative;
   float:left;
   width:20%;
-  font-family: ApercuRegular;
+  font-family: MonSB;
   height:auto;
 } 
 
 .column1des{
   position: relative;
   float:left;
-  width:23%;
+  font-size:25px;
+  width:75%;
   font-family: ApercuRegular;
   height:auto;
 }
@@ -650,18 +697,22 @@ display:inline-block;
   float:left;
   line-height:1.4;
   width:15%;
+  font-size:25px;
   font-family: ApercuRegular;
   height:auto;
+  left:0;
 }
 
 .column2des{
   position: relative;
-  width:23%;
+  width:auto;
   height:auto;
   line-height: 1.4;
+  font-size:15px;
   font-family: ApercuRegular;
+  right:0;
   float:right;
-  color:#848484;
+  color:#424141;
 }
 
 .column2des1{
@@ -671,7 +722,7 @@ display:inline-block;
   line-height: 1.4;
   font-family: ApercuRegular;
   float:right;
-  color:#848484;
+  color:#424141;
 }
 
 .column2des em{
@@ -681,10 +732,10 @@ display:inline-block;
 .subtitle{
   margin-bottom:7%;
   width:70%;
-  font-size: 30px;
+  font-size: 40px;
   height:auto;
   font-family: Value ;
-  color:#848484;
+  color:#424141;
   z-index:4;
   transition: 0.6s;
 }
@@ -697,7 +748,7 @@ display:inline-block;
   font-size: 40px;
   height:auto;
   font-family: Value ;
-  color:#848484;
+  color:#424141;
   z-index:4;
   transition: 0.6s;
   line-height:1.3;
@@ -712,7 +763,7 @@ display:inline-block;
   font-size: 15px;
   height:auto;
   font-family: Bookmania ;
-  color:#848484;
+  color:#424141;
   z-index:4;
   transition: 0.6s;
 }
@@ -725,7 +776,7 @@ display:inline-block;
   font-size: 15px;
   height:auto;
   font-family: ApercuRegular ;
-  color:#848484;
+  color:#424141;
   z-index:4;
   transition: 0.6s;
 }
@@ -739,7 +790,7 @@ display:inline-block;
   font-size: 20px;
   height:auto;
   font-family: Bookmania ;
-  color:#848484;
+  color:#424141;
   z-index:4;
   transition: 0.6s;
 }
@@ -771,7 +822,7 @@ display:inline-block;
   font-family: ApercuBold;
   width:90%;
   font-size:15px;
-  color:#848484;
+  color:#424141;
   padding-top: 0px;
   padding-bottom: 8px;
   top:0;
@@ -785,7 +836,7 @@ display:inline-block;
   margin-right: auto;
   font-family: ApercuRegular;
   font-size:20px;
-  color:#848484;
+  color:#424141;
   top:0;
   padding-bottom: 15px;
   position: relative;
@@ -799,7 +850,7 @@ display:inline-block;
   font-family: ApercuBold;
   width:90%;
   font-size:13px;
-  color:#848484;
+  color:#424141;
   padding-top: 60px;
   padding-bottom: 8px;
   top:0;
@@ -813,7 +864,7 @@ display:inline-block;
   margin-right: auto;
   font-family: ApercuRegular;
   font-size:13px;
-  color:#848484;
+  color:#424141;
   top:0;
   padding-bottom: 10px;
   position: relative;
@@ -827,7 +878,7 @@ display:inline-block;
   margin-right: auto;
   font-family: ApercuRegular;
   font-size:15px;
-  color:#848484;
+  color:#424141;
   top:0;
   padding-top:60px;
   padding-bottom: 10px;
@@ -841,7 +892,7 @@ display:inline-block;
   left:0;
   font-family: ApercuRegular;
   font-size:13px;
-  color:#848484;
+  color:#424141;
   top:0;
   padding-top:60px;
   padding-bottom: 10px;
@@ -854,7 +905,7 @@ display:inline-block;
   left:0;
   font-family: ApercuRegular;
   font-size:13px;
-  color:#848484;
+  color:#424141;
   top:0;
   padding-top:20px;
   padding-bottom: 10px;
@@ -867,7 +918,7 @@ display:inline-block;
   left:0;
   font-family: ApercuRegular;
   font-size:13px;
-  color:#848484;
+  color:#424141;
   top:0;
   padding-top:60px;
   padding-bottom: 10px;
@@ -880,7 +931,7 @@ display:inline-block;
     margin-left: 30%;
   font-family: ApercuRegular;
   font-size:13px;
-  color:#848484;
+  color:#424141;
   top:0;
   padding-top:60px;
   padding-bottom: 10px;
@@ -890,7 +941,7 @@ display:inline-block;
 
 .middle{
   position: relative;
-  width:65%;
+  width:90%;
   height:auto;
   margin-left: auto;
   margin-right: auto;
@@ -900,6 +951,16 @@ display:inline-block;
 .projectimage{
   width:100%;
   height: auto;
+  padding-top:10px;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.projectimagesm{
+  width:70%;
+  height:auto;
+  margin-left: 14%;
+  margin-right: auto;
   padding-top:10px;
   padding-bottom: 5px;
   position: relative;
@@ -917,12 +978,13 @@ display:inline-block;
 }
 
 .projectimagemedium{
-  width:80%;
+  width:90%;
   height: auto;
   padding-top:10px;
   padding-bottom: 5px;
   position: relative;
   z-index:5;
+   cursor:url(../img/cursor1.png), auto;
 }
 
 .introcolor{
@@ -1079,26 +1141,52 @@ display:inline-block;
 }
 
 .descriptioncontent{
-  width:40%;
+  width:100%;
   height:auto;
   float:left;
   position: relative;
   font-family: ApercuRegular;
-  font-size:14px;
-  color:#848484;
+  font-size:25px;
+  color:#424141;
+  margin-bottom:7%;
   line-height: 1.3;
 }
 
+.descriptioncontentre{
+  width:100%;
+  height:auto;
+  float:left;
+  position: relative;
+  font-family: ApercuRegular;
+  font-size:25px;
+  color:#424141;
+  margin-top:7%;
+  margin-bottom:7%;
+  line-height: 1.3;
+}
+
+.descriptioncontent0{
+  width:100%;
+  height:auto;
+  float:left;
+  position: relative;
+  font-family: ApercuRegular;
+  font-size:25px;
+  color:#424141;
+  line-height: 1.3;
+  margin-top:7%;
+
+}
 .descriptioncontent2{
   width:40%;
   height:auto;
   float:left;
   position: relative;
   font-family: ApercuRegular;
-  font-size:14px;
-  color:#848484;
+  font-size:20px;
+  color:#424141;
   line-height: 1.3;
-  margin-top:7%;
+  margin-top:1%;
   margin-bottom: 4%;
 
 }
@@ -1110,7 +1198,7 @@ display:inline-block;
   position: relative;
   font-family: ApercuRegular;
   font-size:18px;
-  color:#848484;
+  color:#424141;
   line-height: 1.3;
   margin-top:7%;
   margin-bottom: 4%;
@@ -1123,7 +1211,7 @@ display:inline-block;
   position: relative;
   font-family: ApercuRegular;
   font-size:18px;
-  color:#848484;
+  color:#424141;
   line-height: 1.3;
   /*margin-top:7%;*/
   margin-bottom: 4%;
@@ -1205,14 +1293,14 @@ padding-right:10px;
 }
 
 .reproduction{
-  font-family: Value;
+  font-family: Roz;
  /* width:30%;*/
   margin-left:auto;
   margin-right:auto;
   width:100%;
   height:auto;
   text-align: center;
-  font-size:15px;
+  font-size:30px;
   color:#848484;
   margin-top: 50px;
   position: relative;
@@ -1225,7 +1313,7 @@ padding-right:10px;
   margin-right: auto;
   font-family: ApercuRegular;
   font-size:13px;
-  color:#848484;
+  color:#424141;
   top:0;
   padding-bottom: 20px;
   position: relative;
@@ -1237,7 +1325,7 @@ padding-right:10px;
 /*  margin-right: auto;*/
   font-family: ApercuBold;
   width:40%;
-  font-size:10px;
+  font-424141:10px;
   color:#848484;
   padding-top: 60px;
   padding-bottom: 8px;
@@ -1251,7 +1339,7 @@ padding-right:10px;
   font-family: ApercuBold;
   width:80%;
   font-size:10px;
-  color:#848484;
+  color:#848442414184;
   padding-top: 60px;
   padding-bottom: 8px;
   top:0;
@@ -1265,7 +1353,7 @@ padding-right:10px;
   font-family: Value;
   width:50%;
   font-size:25px;
-  color:#848484;
+  color:#424141;
   padding-top: 60px;
   padding-bottom: 8px;
   top:0;
@@ -1290,7 +1378,7 @@ padding-right:10px;
   margin-right: auto;
   font-family: Value;
   font-size:16px;
-  color:#848484;
+  color:#424141;
   padding-top:1rem;
   position: relative;
   line-height: 1.6;
@@ -1303,7 +1391,7 @@ padding-right:10px;
   padding-top:1rem;
   font-family: ApercuRegular;
   font-size:13px;
-  color:#848484;
+  color:#424141;
   top:0;
   padding-bottom: 20px;
   position: relative;
@@ -1333,7 +1421,7 @@ padding-right:10px;
   margin-right: auto;
   font-family: ApercuRegular;
   font-size:14px;
-  color:#848484;
+  color:#424141;
   top:0;
   padding-bottom: 20px;
   position: relative;
@@ -1347,7 +1435,7 @@ padding-right:10px;
   margin-right: auto;
   font-family: ApercuRegular;
   font-size:14px;
-  color:#848484;
+  color:#424141;
   top:0;
   padding-bottom: 20px;
   position: relative;
@@ -1361,7 +1449,7 @@ padding-right:10px;
   margin-right: auto;
   font-family: ApercuBold;
   font-size:12px;
-  color:#848484;
+  color:#424141;
   top:0;
   position: relative;
   line-height: 1.3;
@@ -1373,7 +1461,7 @@ padding-right:10px;
   margin-right: auto;
   font-family: ApercuRegular;
   font-size:13px;
-  color:#848484;
+  color:#424141;
   top:0;
   padding-bottom: 20px;
   position: relative;
@@ -1386,7 +1474,7 @@ padding-right:10px;
   font-family: ApercuBold;
   width:40%;
   font-size:10px;
-  color:#848484;
+  color:#424141;
   padding-top: 60px;
   padding-bottom: 8px;
   top:0;
@@ -1398,7 +1486,7 @@ padding-right:10px;
   margin-left:50%;
   font-family: ApercuRegular;
   font-size:13px;
-  color:#848484;
+  color:#424141;
   top:0;
   padding-bottom: 20px;
   position: relative;
@@ -1528,8 +1616,8 @@ padding-right:10px;
   left:0;
   overflow: hidden;
   /* Sets the width and height for the images*/
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: auto;
 }
 
 /* 
@@ -1576,8 +1664,8 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   left:0;
   overflow: hidden;
   /* Sets the width and height for the images*/
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: auto;
 }
 
 /* 
@@ -1613,8 +1701,8 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   left:0;
   overflow: hidden;
   /* Sets the width and height for the images*/
-  width: 45px;
-  height: 35px;
+  width: 25px;
+  height: auto;
 }
 
 /* 
@@ -1743,7 +1831,7 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 } 
 
 .column1des{
-  width:40%;
+  width:70%;
 }
 .projectimagesmallnoresize{
   margin-left: auto;
@@ -1847,6 +1935,18 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   float:top;
 }
 
+.work_archive:hover{
+  background-image: url("../img/ease/closeopen3.gif");
+  transition-duration: 1s;
+  min-height: 40rem;
+}
+
+.work_nibble:hover{
+  background-image: url("../img/nibbles/nibopen.gif");
+  transition-duration: 1s;
+  min-height: 40rem;
+}
+
 
   #image-gallery{
       grid-template-areas: 
@@ -1931,8 +2031,9 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   width:80%;/*
   float:right;*/
   height:12px;
-  font-color: #4A4A4A;
+  font-color: #424141;
 }
+
 
 #home{
   position:relative;
@@ -1992,7 +2093,7 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 
 .reproduction{
   font-size:13px;
-  color:#848484;
+  color:#424141;
   margin-top: 30px;
   margin-bottom: 50px;
   position: relative;
