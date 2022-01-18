@@ -305,15 +305,15 @@ span{
 }
 
 .wheeldes{
-  font-size:16px;
-  font-family: Value;
+  font-size:20px;
+  font-family: Roz;
   text-align: center;
   position: relative;
   top:10px;
 }
 .wheeldes2{
   font-size:12px;
-  font-family: ApercuRegular;
+  font-family: MonSB;
   text-align: center;
   position: relative;
   top:20px;
@@ -462,11 +462,11 @@ span{
 
 .work_sugar{
   grid-area: work_sugar;
-  background-image: url("../img/tokyo/ill.jpg");
+  background-image: url("../img/tokyo/logocover.gif");
 }
 
 .work_sugar:hover{
-  background-image: url("../img/tokyo/logocover.gif");
+  background-image: url("../img/tokyo/ill3.jpg");
   transition-duration: 0.4s;
 }
 
@@ -488,7 +488,7 @@ span{
 }
 
 .work_care:hover{
-  background-image: url("../img/work_3_hover.jpg");
+  background-image: url("../img/care/front.jpg");
   transition-duration: 0.4s;
 }
 
@@ -499,13 +499,13 @@ span{
 }
 .work_didot{
   grid-area: work_didot;
-  background-image: url("../img/road/ad1.jpg");
+  background-image: url("../img/road/foodtruckmock.jpg");
 /*    min-width:51.5rem;*/
 }
 
 .work_didot:hover{
   grid-area: work_didot;
-  background-image: url("../img/road/foodtruck.jpg");
+  background-image: url("../img/road/restsign.jpg");
   transition-duration: 0.4s;
 /*    min-width:51.5rem;*/
 }
@@ -528,7 +528,7 @@ span{
 
 .work_nourish:hover{
   grid-area: work_nourish;
-  background-image: url("../img/nourish/1.jpg");
+  background-image: url("../img/nourish/5_2.gif");
   transition-duration: 0.5s;
   min-height:40rem;
 }
@@ -769,16 +769,13 @@ display:inline-block;
 }
 .subheader2{
   position: relative;
-  /*margin-left:30%;*//*
-  padding-top:15px;*/
   line-height: 1.4;
-  width:70%;
-  font-size: 15px;
+  width:100%;
+  font-size: 30px;
   height:auto;
   font-family: ApercuRegular ;
   color:#424141;
   z-index:4;
-  transition: 0.6s;
 }
 
 .aboutdes{
@@ -1121,7 +1118,8 @@ display:inline-block;
   width:100%;
   padding:0;
   height:auto;
-  padding-top:4rem;
+  padding-top:2rem;
+  padding-bottom:6rem;
 }
 
 .columngroup2{
@@ -1447,8 +1445,8 @@ padding-right:10px;
   margin-left: 0;
   float:left;
   margin-right: auto;
-  font-family: ApercuBold;
-  font-size:12px;
+  font-family: MonSB;
+  font-size:15px;
   color:#424141;
   top:0;
   position: relative;
@@ -1555,7 +1553,33 @@ padding-right:10px;
   width:49%;
 }
 
+.column3_60img{
+  position: relative;
+  float:left;
+  width:60%;
+  margin-right:2%;
+}
+.column4_40img{
+  position: relative;
+  width:37%;
+}
 
+.columnthree1{
+  position: relative;
+  float:left;
+  width:30%;
+  margin-right:2%;
+}
+.columnthree2{
+  position: relative;
+  width:30%;
+}
+
+.columnthree3{
+  position: relative;
+  width:36%;
+
+}
 
 .list{
   width:100px;
@@ -2078,6 +2102,18 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   width:100%;
   margin-right:0;
 }
+
+.column3_60img{
+  position: relative;
+  width:100%;
+  margin-right:0;
+}
+.column4_40img{
+  position: relative;
+  width:100%;
+  margin-right:0;
+}
+
 
 .title2des{
   font-size:10px;
