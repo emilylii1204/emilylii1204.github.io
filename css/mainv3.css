@@ -16,6 +16,9 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
   @font-face {font-family: "Noto"; src: url("../fonts/NotoSerifTC-SemiBold.otf"); }
    @font-face {font-family: "Value"; src: url("../fonts/value-serif.ttf"); }
    @font-face {font-family: "MonSB"; src: url("../fonts/Montserrat-SemiBold.ttf"); }
+   @font-face {font-family: "MonReg"; src: url("../fonts/Montserrat-Regular.ttf"); }
+
+   @font-face {font-family: "MonIt"; src: url("../fonts/Montserrat-Italic.ttf"); }
    @font-face {font-family: "Roz"; src: url("../fonts/RozhaOne-Regular.ttf"); }
  
 
@@ -261,12 +264,9 @@ span{
 }
 */
 .introbox{
-  margin-left:auto;
-  margin-right: auto;
-  margin-top:50px;
-  margin-bottom: 50px;
-  top:0;
-  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 13%);
   position: relative;
   width:75%;
   height:100%;
@@ -320,6 +320,21 @@ span{
   line-height: 1.1rem;
 }
 
+.newdes{
+  position: relative;
+  margin-top:20%;
+  margin-bottom:15%;
+  width:100%;
+}
+
+.line{
+   position: relative;
+   font-family:MonReg;
+  font-size:60px;
+  margin-bottom:10px;
+  color:#424141 ;
+}
+
 .intro{
   margin-top:;
   margin-bottom:auto;
@@ -362,6 +377,11 @@ span{
 
 #image-gallery{
   padding-bottom: 150px;
+  position:relative;
+  width:100%;
+
+  padding-top:13%;
+  height:auto;
   display: grid;
   grid-gap:1.5rem;
   grid-template-columns:  1fr 1fr 1fr 1fr;
@@ -378,6 +398,9 @@ span{
 
 #image-gallery a{
   width:100%;
+    position:relative;
+  width:100%;
+  height:auto;
   z-index: 100;
   height:19.25rem;
   background-position: center;
@@ -568,7 +591,6 @@ display:inline-block;
 }
 
 .innerpages2{
-  margin-top:150px;
  /* margin-bottom: auto;*/
   margin-left:auto;
   width:100%;
@@ -583,17 +605,83 @@ display:inline-block;
   right: 0;
   bottom: 0;
   left: 0;
-  width:100%;
+  width:90%;
   height:6rem;
+  margin-left:4%;
   padding: 1rem;
 /*  background-color: white;*/
   text-align: center;
   z-index: 1000;
 }
 
+.foot{
+  width:30px;
+  height:auto;
+  margin-right:40px;
+  float:left;
+  left:auto;
+  right:auto;
+  position: relative;
+
+}
+.foot img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.footgroup{
+  width:90%;
+  height:6rem;
+  left:0%;
+  position: relative;
+}
+
+.line{
+  width:100%;
+  height:auto;
+}
+/*.foot1{
+  width:3rem;
+  height:auto;
+  padding-right:10px;
+  position: relative;
+}*/
+
+.contactme{
+  font-family: MonSB;
+  font-size:12px;
+  left:5%;
+  margin-top:30px;
+  width:100%;
+  height:auto;
+  position: relative;
+}
+.contactme2{
+  font-family: MonIT;
+  font-size:70px;
+  left:5%;
+  margin-top:20px;
+  margin-bottom: 30px;
+  width:100%;
+  height:auto;
+  position: relative;
+}
+
+
+hr{
+  margin-top:50px;
+}
+.igpic .lipic .drpic .empic{
+
+  width:20%;
+  height:auto;
+  
+}
+
 .top{
   margin-left:auto;
   margin-right: auto;
+  margin-top:0;
   position: relative;
   width:90%;
   height:auto;
@@ -769,11 +857,12 @@ display:inline-block;
 }
 .subheader2{
   position: relative;
-  line-height: 1.4;
+  line-height: 1.2;
+  top:10px;
   width:100%;
-  font-size: 30px;
+  font-size: 35px;
   height:auto;
-  font-family: ApercuRegular ;
+  font-family: MonIt ;
   color:#424141;
   z-index:4;
 }
@@ -977,8 +1066,9 @@ display:inline-block;
 .projectimagemedium{
   width:90%;
   height: auto;
+  /*
   padding-top:10px;
-  padding-bottom: 5px;
+  padding-bottom: 5px;*/
   position: relative;
   z-index:5;
    cursor:url(../img/cursor1.png), auto;
@@ -1118,9 +1208,9 @@ display:inline-block;
   width:100%;
   padding:0;
   height:auto;
-  padding-top:2rem;
   padding-bottom:6rem;
 }
+.
 
 .columngroup2{
   width:100%;
@@ -1453,6 +1543,19 @@ padding-right:10px;
   line-height: 1.3;
 }
 
+.titleMon{
+  width:100%;
+  margin-left: 0;
+  float:left;
+
+  margin-right: auto;
+  font-family: MonReg;
+  font-size:15px;
+  color:#424141;
+  top:0;
+  position: relative;
+  line-height: 1.3;
+}
 .desfull{
   width:60%;
   margin-left: 0;
