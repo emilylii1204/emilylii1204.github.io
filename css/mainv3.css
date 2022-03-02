@@ -99,6 +99,30 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
   font-color: #424141;
 }
 
+.emilytype{
+  width:100%;
+  height:auto;
+  position: relative;
+  padding-right: 2%;
+  margin-bottom: 8%;
+}
+#aboutroz{
+  font-family:Roz; 
+  font-size:45pt;
+}
+
+#aboutmon{
+  font-family:'MonIt'; 
+  font-size:40pt;
+}
+#aboutdash{
+  font-size:11pt; 
+  margin-right:30px;
+}
+#aboutmonsb{
+    font-family:MonSB; 
+    font-size:35pt;
+}
 
 #home{
 	position:relative;
@@ -322,7 +346,7 @@ span{
 
 .newdes{
   position: relative;
-  margin-top:20%;
+  margin-top:18%;
   margin-bottom:15%;
   width:100%;
 }
@@ -515,11 +539,11 @@ span{
 
 .work_care{
   grid-area: work_care;
-  background-image: url("../img/care/introcarrot.gif");
+  background-image: url("../img/care/front.jpg");
 }
 
 .work_care:hover{
-  background-image: url("../img/care/front.jpg");
+  background-image: url("../img/care/introcarrot.gif");
   transition-duration: 0.4s;
   cursor:url(../img/cursor1filled.png), auto;
 }
@@ -531,13 +555,13 @@ span{
 }
 .work_didot{
   grid-area: work_didot;
-  background-image: url("../img/road/foodtruckmock.jpg");
+  background-image: url("../img/road/ad2.jpg");
 /*    min-width:51.5rem;*/
 }
 
 .work_didot:hover{
   grid-area: work_didot;
-  background-image: url("../img/road/restsign.jpg");
+  background-image: url("../img/road/frontsideback.jpg");
   transition-duration: 0.4s;
   cursor:url(../img/cursor1filled.png), auto;
 /*    min-width:51.5rem;*/
@@ -653,6 +677,14 @@ display:inline-block;
 .line{
   width:100%;
   height:auto;
+  margin-bottom:0px;
+}
+
+.newdes{
+
+  margin-top:5%;
+  margin-bottom:15%;
+  width:100%;
 }
 /*.foot1{
   width:3rem;
@@ -2261,6 +2293,24 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 
 .wheelright{
   float:right;
+}
+
+#aboutroz{
+  font-family:Roz; 
+  font-size:25pt;
+}
+
+#aboutmon{
+  font-family:'MonIt'; 
+  font-size:20pt;
+}
+#aboutdash{
+  font-size:10pt; 
+  margin-right:10px;
+}
+#aboutmonsb{
+    font-family:MonSB; 
+    font-size:15pt;
 }
 
 
