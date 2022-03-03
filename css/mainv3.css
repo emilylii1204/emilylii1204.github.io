@@ -1186,6 +1186,7 @@ hr{
 }
 .projectimagemedium{
   width:100%;
+  margin-bottom:50px;
   }
 
 .projectimagesmall{
@@ -2056,11 +2057,22 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 
 .descriptioncontent2{
   width:100%;
+  font-size:15px;
 }
 
 .descriptioncontent{
   width:100%;
+font-size:15px;
+}
 
+.descriptioncontentre{
+font-size:15px;
+  width:100%;
+}
+
+.descriptioncontent0{
+font-size:15px;
+  width:100%;
 }
 
 .des{
@@ -2167,7 +2179,7 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   font-size:15px;
 }
   .introbox{  
-    margin-top:150px;
+    margin-top:80px;
 
 /*  margin-bottom:auto;*/
 /*  top:100px;*/
@@ -2252,13 +2264,14 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   width:60%;
 }
 .column1des{
-  width:60%;
+  font-size:15px;
+  width:80%;
   top:10px;
 }
 .column2des{
-  width:20%;
-  top:15px;
-  font-size: 12px;
+  width:15%;
+  top:10px;
+  font-size: 9px;
 }
 .column3img{
   position: relative;
@@ -2294,6 +2307,13 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 #titlenib{
   margin-bottom:2%;
 }
+
+#title3{
+  margin-bottom:3%;
+  width:100%;
+  font-size: 50px;
+}
+
 
 .reproduction{
   font-size:13px;
@@ -2340,6 +2360,7 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
   margin-top:20px;
 
 }
+
 
   }
 
