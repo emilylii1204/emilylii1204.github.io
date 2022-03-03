@@ -346,15 +346,23 @@ span{
 
 .newdes{
   position: relative;
-  margin-top:18%;
-  margin-bottom:15%;
+/*  margin-top:18%;*/
+  margin-bottom:5%;
   width:100%;
+}
+.mefirst{
+  width: 100vw;
+  height:auto;
+  padding-right:15%;
+  margin-top:10vw;
+  transform: translate(0, 5vw);
+/*  position: relative;*/
 }
 
 .line{
    position: relative;
    font-family:MonReg;
-  font-size:60px;
+  
   margin-bottom:10px;
   color:#424141 ;
 }
@@ -380,8 +388,6 @@ span{
   color:#424141;
   top:0;
 }
-
-
 
 
 #container{
@@ -681,10 +687,10 @@ display:inline-block;
 }
 
 .newdes{
-
-  margin-top:5%;
-  margin-bottom:15%;
+  margin-top:18%;/*
+  margin-bottom:15%;*/
   width:100%;
+  position: relative;
 }
 /*.foot1{
   width:3rem;
@@ -697,7 +703,7 @@ display:inline-block;
   font-family: MonSB;
   font-size:12px;
   left:5%;
-  margin-top:30px;
+  /*margin-top:10px;*/
   width:100%;
   height:auto;
   position: relative;
@@ -905,8 +911,8 @@ hr{
   position: relative;
   line-height: 1.2;
   top:10px;
-  width:100%;
-  font-size: 35px;
+  width:80%;
+  font-size: 25px;
   height:auto;
   font-family: MonIt ;
   color:#424141;
@@ -1251,12 +1257,21 @@ hr{
 
 .aboutmegroup{
   position: relative;
+  width:100vw;
   width:100%;
   padding:0;
   height:auto;
   padding-bottom:6rem;
+
 }
-.
+.aboutmegroup2{
+  position: relative;
+  width:100%;
+  padding:0;
+  margin-top:6rem;
+  height:auto;
+  padding-bottom:6rem;
+}
 
 .columngroup2{
   width:100%;
@@ -1934,7 +1949,8 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
  }
 
  .subheader2{
- margin:0;
+  font-size: 20px;
+ margin-top:40px;
  width:100%;
  }
 
@@ -2169,6 +2185,8 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 
 .aboutmegroup{
   padding-top:1.3rem;
+
+  padding-bottom:3rem;
 }
 
 
@@ -2301,18 +2319,27 @@ We give it an opacity leaner to .25s, that way when we hover we will get a nice 
 }
 
 #aboutmon{
-  font-family:'MonIt'; 
-  font-size:20pt;
+  font-family:'Roz'; 
+  font-size:25pt;
 }
 #aboutdash{
-  font-size:10pt; 
-  margin-right:10px;
+  font-family:'Roz'; 
+  font-size:10pt;
 }
 #aboutmonsb{
     font-family:MonSB; 
     font-size:15pt;
 }
 
+.contactme{
+  font-size:12px;
+}
+.contactme2{
+  font-size:20px;
+  left:5%;
+  margin-top:20px;
+
+}
 
   }
 
