@@ -106,14 +106,17 @@ html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden;
   padding-right: 2%;
   margin-bottom: 8%;
 }
+
+
+
 #aboutroz{
   font-family:Roz; 
   font-size:45pt;
 }
 
 #aboutmon{
-  font-family:'MonIt'; 
-  font-size:40pt;
+  font-family:'Roz'; 
+  font-size:45pt;
 }
 #aboutdash{
   font-size:11pt; 
@@ -2335,16 +2338,18 @@ font-size:15px;
 
 #aboutroz{
   font-family:Roz; 
-  font-size:25pt;
+  font-size:20pt;
 }
 
 #aboutmon{
   font-family:'Roz'; 
-  font-size:25pt;
+  font-size:20pt;
 }
 #aboutdash{
 /*  font-family:'Roz'; */
-  font-size:8pt;
+  font-family:'Roz'; 
+  font-size:10pt;
+  margin-right:0;
 }
 #aboutmonsb{
     font-family:MonSB; 
