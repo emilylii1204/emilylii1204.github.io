@@ -1,0 +1,260 @@
+html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden; scroll-behavior: smooth; background-color: #F5F1EE;}
+@font-face {font-family: "Fraunces"; src: url("../fonts/Fraunces-variable.ttf"); }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#wrapper{
+  color: #384746;
+  margin:0;
+  padding:0;
+  position: absolute;
+  width:100%;
+  height:auto;
+  cursor:url(../imgsecond/cursor.png), auto;
+}
+
+
+
+.nav{
+  top:25px;
+  width:100%;
+  height:30vh;
+  color:#384746;
+}
+
+.home{
+  color:#384746;
+}
+
+.home:hover{
+  color:#4A66F2;
+  cursor:url(../imgsecond/cursor.png), auto;
+}
+
+.p-10{
+  padding: 3.5rem;
+}
+
+.gap-10{
+  gap:5rem;
+}
+
+.home{
+  position: relative;
+  width:50px;
+  height:auto;
+
+}
+.navright{
+  float:right;
+
+}
+
+.navrightlist:hover{
+  font-family:Fraunces;
+  font-weight:600;
+  font-size:1rem;
+  color:#C4CFF2;
+  margin-bottom:2px;
+  color:#C4CFF2;
+  outline-offset: .05rem;
+  outline: 2px solid #C4CFF2;
+  background-color: #F5F1EE;
+  padding-left:1rem;
+  padding-right:1rem;
+  border-radius: 1.5rem;
+  cursor:url(../imgsecond/cursor.png), auto;
+
+}
+
+.navrightlist{
+  height:auto;
+  font-family:Fraunces;
+  font-weight:600;
+  font-size:1rem;
+  color:#384746;
+  outline-offset: .05rem;
+  outline: 2px solid #F5F1EE;
+  background-color: #F5F1EE;
+  padding-left:1rem;
+  padding-right:1rem;
+  border-radius: 1.5rem;
+ }
+
+ .nothere{
+  font-family: Poppins, san-serif;
+  font-weight: 300;
+  font-size: 1rem;
+ }
+
+ .here{
+  font-family:Fraunces;
+  font-weight:600;
+  font-size:1rem;
+  color:#4A66F2;
+  outline-offset: .05rem;
+  outline: 2px solid #4A66F2;
+  background-color: #F5F1EE;
+  padding-left:1rem;
+  padding-right:1rem;
+  border-radius: 1.5rem;
+
+
+}
+
+
+.intro{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}
+
+
+.introline1{
+  font-family:Fraunces;
+  font-weight:600;
+  font-size:6rem;
+  text-align: center;
+}
+
+.introline2{
+  font-family:Poppins;
+  font-size:1.3rem;
+  font-weight: 300; 
+  text-align: center;
+
+}
+
+.introtag{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Fraunces;
+  font-weight:400;
+  font-size:1.5rem;
+  color:#4A66F2;
+  height:auto;
+  width: auto;
+  outline-offset: .05rem;
+  outline: 2px solid #4A66F2;
+  background-color: #F5F1EE;
+  position: relative;
+}
+
+.introtag:hover{
+  color:#C4CFF2;
+  outline: 2px solid #C4CFF2;
+  cursor:url(../imgsecond/cursor.png), auto;
+}
+
+
+.image-gallery{
+  width:70%;
+  height:auto;
+  position: relative;
+  top:45px;
+}
+
+
+.image-gallery-individual{
+  outline:none;
+}
+
+.image-gallery-individual:hover{
+  outline-offset: .5rem;
+  outline: 2px solid #C4CFF2;
+  cursor:url(../imgsecond/cursor.png), auto;
+}
+
+.max-w-full{
+/*width:33.3%;
+height:auto;*/
+}
+
+.aboutgroup{
+  position:fixed;
+  display:flex;
+  height:70vh;
+}
+
+
+img{
+/*  width:100%;
+  height:auto;*/
+   /* margin-bottom:1.5rem;*/
+}
+
+.aboutintro{
+  font-family:Fraunces;
+  font-weight:600;
+  font-size:3rem;
+  text-align: left;
+}
+
+.aboutgrid{
+
+}
+
+.aboutpic{
+  /*width:25%*/;
+}
+
+.circle{
+  height:25px;
+  width: 25px;
+  border-radius:50%;
+  border:3px solid #C4CFF2;
+  background-color: #F5F1EE;
+  position: relative;
+
+}
+
+.aboutcontent{
+  font-family: Poppins;
+  font-weight:300;
+  font-size:1rem;
+}
+
+.worktitle{
+  font-family:Fraunces;
+  font-weight:600;
+  font-size:3.5rem;
+  text-align: left;
+}
+
+.worknumber{
+  font-family:Fraunces;
+  font-weight:600;
+  font-size:2rem;
+  text-align: left;
+}
+
+.tag{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Fraunces;
+  font-weight:400;
+  font-size:1rem;
+  height:auto;
+  width: auto;
+  outline-offset: 5px;
+  outline: 2px solid #C4CFF2;
+  background-color: #F5F1EE;
+  position: relative;
+  cursor:url(../imgsecond/cursor.png), auto;
+}
+
+.workbrief{
+  font-family: Poppins;
+  font-weight:300;
+  font-size:1rem;
+  text-align: left;
+}
+
+.work-image-gallery{
+  position: relative;
+}
+

@@ -1,0 +1,59 @@
+*,
+*:: before,
+*:: after{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html,body { width: 100%; height:auto ;display:flex; margin:0; overflow-x:hidden; scroll-behavior: smooth; background-color: white;}
+
+/* Changing fonts */
+	@font-face {font-family: "ApercuRegular"; src: url("../fonts/Montserrat-SemiBold.ttf"); }
+  @font-face {font-family: "ApercuMedium"; src: url("../fonts/ApercuMedium.ttf"); }
+	@font-face {font-family: "ApercuBold"; src: url("../fonts/ApercuBold.ttf"); }
+  @font-face {font-family: "Bookmania"; src: url("../fonts/NotoSerifTC-SemiBold.otf"); }
+  @font-face {font-family: "Noto"; src: url("../fonts/NotoSerifTC-SemiBold.otf"); }
+   @font-face {font-family: "Value"; src: url("../fonts/value-serif.ttf"); }
+   @font-face {font-family: "MonSB"; src: url("../fonts/Montserrat-SemiBold.ttf"); }
+   @font-face {font-family: "MonReg"; src: url("../fonts/Montserrat-Regular.ttf"); }
+
+   @font-face {font-family: "MonIt"; src: url("../fonts/Montserrat-Italic.ttf"); }
+   @font-face {font-family: "Roz"; src: url("../fonts/RozhaOne-Regular.ttf"); }
+
+
+#wrapper2{
+  margin:0;
+  padding:0;
+  position:absolute;
+  width:100%;
+  height:auto;
+   cursor:url(../img/cursor1.png), auto;
+
+}
+
+.nav{
+  position:relative;
+  margin-top:0px;
+  /*margin-left:5%;*/
+  /*margin-right:10%;*/
+  margin-bottom: auto;
+  width:100%;
+  height:auto;
+  font-family: MonSB,sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  color:#424141;
+  z-index: 5000;  
+  cursor:url(../img/cursor1.png), auto;
+/*  display: inline-block;*/
+}
+
+#home{
+  position:relative;
+  /*left:0%;*/
+  width:60px;
+  left:60px;
+  float:left;
+  margin-top:20px;
+  height:auto;

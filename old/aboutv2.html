@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Emily Li</title>
+  	<meta charset="utf-8">  
+<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='./css/reset.css' media='all' rel='stylesheet' type='text/css' />
+    <link href='./css/mainv3.css' media='all' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="https://use.typekit.net/zzg4edb.css">
+    <link rel="icon" href="./img/favicon2.png" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  <style>
+    /* Your optional CSS styles go here */
+  </style>
+</head>
+
+<body>
+	<div id="wrapper2">
+    
+    <div class="nav">
+      <a href="index.html">
+        <img id="home" src="./img/homelogo.png">
+      </a>
+     <!-- <div class="show_hide"><a href="#"><</div> -->
+     <a href="#" class="show_hide"><img src="./img/menuhover.gif"></a>
+        <div class="list">
+          <a class="menu" href="index.html#image-gallery">design</a>
+          <a class="menu" href="about.html">about</a>
+          <a class="menu" href="https://www.etsy.com/shop/EmilyLiDesign">shop</a>
+        </div>
+      <div class="link">
+        <a class="linkbut space" href="about.html">about</a>
+        <a class="linkbut space" href="https://www.etsy.com/shop/EmilyLiDesign">shop</a>
+        <a class="linkbut space" href="index.html#image-gallery">design</a>
+      </div>
+    </div>
+
+
+    <div class="innerpages2">
+        <div class="top">
+    
+        </div>
+          
+    </div>
+      
+    </div>
+
+
+
+<div class="footer">
+    <div class="footgroup">
+        <div class="foot">
+          <a href="https://www.instagram.com/emilylilidesign/">
+          <img  class="igpic" src="./img/insta.png"/></a>
+        </div>
+        <div class="foot">
+          <a href="https://dribbble.com/emily-li">
+          <img class="lipic" src="./img/dribble.png"/></a>
+        </div>
+        <div class="foot">
+          <a href="https://www.instagram.com/emilylilidesign/">
+          <img class="drpic" src="./img/linkedin.png"/></a>
+        </div>
+        <div class="foot">
+          <a href="mailto:emilylii.1204@gmail.com">
+          <img class="empic" src="./img/email.png"/></a>
+        </div>
+    </div>
+</div>    
+
+
+
+  <script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("title").style.fontSize = "30px";
+    document.getElementById("descriptiontitle").style.fontSize = "15px";
+  } else {
+    document.getElementById("title").style.fontSize = "70px";
+    document.getElementById("descriptiontitle").style.fontSize = "20px";
+
+  }
+    //   if ($('#title').isOnScreen() == true) {
+    //     $('.box').hide();
+    // }
+    // else{
+    //     $('.box').show();
+    // }
+};
+
+
+$(document).ready(function() {
+
+    $(".list").hide();
+    $(".show_hide").show();
+
+    $('.show_hide').click(function() {
+          
+         //$(".slidingDiv").slideToggle();
+         var isvisible = $(this).next('.list').is(':visible');
+      
+         if ( isvisible ) {
+           $(this).next('.list').hide()
+         } else{
+           $(this).next('.list').show(); 
+         }
+    });
+
+
+});
+
+
+
+
+  </script>
+
+</body>
+
+
+</html>
