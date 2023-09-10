@@ -3,6 +3,7 @@
 
 html, body {
   background-color: #F5F1EE;
+  cursor:url(../imgsecond/cursor.png), auto;
 }
 
 #wrapper{
@@ -19,6 +20,7 @@ html, body {
   top:25px;
   width:100%;
   color:#384746;
+
 }
 
 .home{
