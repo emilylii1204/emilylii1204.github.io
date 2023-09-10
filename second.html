@@ -14,8 +14,8 @@
 </head>
 
 <body>
-  <div id="wrapper">
-    <nav class="flex p-10 ">
+  <header class="fixed top-0 z-50 w-full">
+    <nav class="flex p-10">
       <a href="index.html"><img class="home mr-auto" href="index.html" src="./imgsecond/home.svg" /></a>
       <div class="navright ml-auto flex gap-9  content-center items-center justify-end">
           <a class="navrightlist here mb-1" href="work.html">Work</a><!-- 
@@ -23,16 +23,24 @@
           <a class="navrightlist nothere" href="aboutme.html">About</a>
       </div>
     </nav>
-     <div class="intro flex flex-row">
-      <div class="introline1"> This is Emily Li's site</div>
-     
-        <span class="introline2">See her</span>
-        <span class="introtag pl-5 pr-5 rounded-full"><a href="work.html">work</a></span>
-        <span class="introline2">, doom scroll through her</span>
-        <span class="introtag pl-5 pr-5 rounded-full"><a href="https://dribbble.com/emily-li">doodles</a></span>
-        <span class="introline2">, listen to her favorite</span>
-        <span class="introtag pl-5 pr-5 rounded-full"><a href="https://open.spotify.com/artist/6zFYqv1mOsgBRQbae3JJ9e?si=c490d2de49a64ef9">artist</a></span>
+  </header>
 
-      </div>
-    </div>
+  <main class="relative">
+    <div class="h-screen" id="wrapper">
+    <div class="flex flex-col h-screen justify-center"> 
+      <div class="introline1"> This is Emily Li's site</div>
+        <div class="intro flex flex-row gap-3  mt-8">
+          <p> See her
+            <a class="introtag pl-5 pr-5 rounded-full" href="work.html">work </a>
+            , doom scroll through her
+            <a class="introtag pl-5 pr-5 rounded-full" href="https://dribbble.com/emily-li">doodles </a>
+            , listen to her favorite
+            <a class="introtag pl-5 pr-5 rounded-full" href="https://open.spotify.com/artist/6zFYqv1mOsgBRQbae3JJ9e?si=c490d2de49a64ef9">artist</a>
+          </p>
+        </div>
+      </div>  
+    </div> 
+  </main>
+
+  <footer></footer>
 </body>
