@@ -190,11 +190,13 @@ a:hover {
   height:auto;
   position: relative;
   top:45px;
+  column-count:2;
 }
 
 
 .image-gallery-individual{
   outline:none;
+  margin-bottom:2rem;
 }
 
 .image-gallery-individual:hover{
@@ -444,6 +446,15 @@ img{
 .intro{
   margin:auto;
   }
+  .image-gallery-individual{
+  outline:none;
+  margin-bottom:1rem;
+}
+.image-gallery{
+  column-count:1;
+}
+}
+
 }
 
 @media (max-width: 320px) {
@@ -458,10 +469,16 @@ img{
   gap:0rem;
   padding-left:0.5rem;
   padding-right:0.5rem;
+  column-count:1;
 }
 .intro{
     /*width:91.6667%;*/
 }
+.image-gallery-individual{
+  outline:none;
+  margin-bottom:0.5rem;
+}
+
 
 .introline2{
   margin-top:0;
