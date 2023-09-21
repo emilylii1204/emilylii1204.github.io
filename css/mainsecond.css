@@ -15,25 +15,43 @@ html, body {
   cursor:url(../imgsecond/cursor.png), auto;
 }
 
+.workwrapper{
+  width:66.666667%%;
+  height:auto;
+}
 
-.nav{
-  top:25px;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the navigation horizontally */
+      top:25px;
   width:100%;
   color:#384746;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+
+.navright {
+    display: flex;
+    gap: 3rem;
+    margin-left:auto;
 }
 
 .home{
   color:#384746;
+  opacity:1;
 }
 
 .home:hover{
   color:#4A66F2;
   cursor:url(../imgsecond/cursor.png), auto;
-}
-
-.p-10{
-  padding: 3.5rem;
+  opacity:0.5;
 }
 
 .gap-10{
@@ -44,10 +62,6 @@ html, body {
   position: relative;
   width:50px;
   height:auto;
-
-}
-.navright{
-  float:right;
 
 }
 
@@ -80,6 +94,9 @@ html, body {
   padding-left:1rem;
   padding-right:1rem;
   border-radius: 1.5rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
  }
 
  .nothere{
@@ -120,7 +137,7 @@ html, body {
 .introline1{
   font-family:Fraunces;
   font-weight:600;
-  font-size:6rem;
+  font-size:8rem;
   text-align: center;
 }
 
@@ -222,7 +239,6 @@ img{
   font-family:Fraunces;
   font-weight:600;
   font-size:3.5rem;
-  text-align: left;
 }
 
 .worknumber{
@@ -240,12 +256,15 @@ img{
   font-weight:400;
   font-size:1rem;
   height:auto;
-  width: auto;
   outline-offset: 5px;
   outline: 2px solid #C4CFF2;
   background-color: #F5F1EE;
   position: relative;
   cursor:url(../imgsecond/cursor.png), auto;
+}
+
+.taggroup{
+  
 }
 
 .workbrief{
@@ -257,5 +276,110 @@ img{
 
 .work-image-gallery{
   position: relative;
+}
+
+@media (max-width: 1281px) {
+  nav {
+      width: 100%;  
+      padding-top: 2.5rem;
+      padding-bottom:2.5rem;
+    }
+  .taggroup {
+    flex-wrap: wrap;
+    justify-content: flex-start; /* You can adjust this as needed */
+    width:91.666667%;
+  }
+
+  .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navright {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10px;
+        margin-left:auto;
+    }
+
+    .navrightlist {
+        margin: 5px 0;
+    }
+
+
+
+  .tag {
+    margin-right: 0px; /* Add some spacing between tags */
+    margin-bottom: 0px; /* Add some spacing between rows of tags */
+   }
+  .workwrapper {
+        width: 91.666667%;
+        margin: 0 auto; /* Center the workwrapper horizontally */
+  }
+
+  #wrapper {
+        width: 100%%;
+        margin: 0 auto; /* Center the wrapper horizontally */
+  }
+  .workbrief{
+      width:100%;
+      font-size:0.9rem;
+  }
+  .worktitle{
+      font-size:3rem;
+  }
+}
+
+@media (max-width: 928px) {
+  nav {
+    padding: 1.5rem;
+  }
+  .introline1{
+  font-size:6rem;
+}
+
+.image-gallery{
+  width:100%;
+  padding-left:2.5rem;
+  padding-right:2.5rem;
+  height:auto;
+  position: relative;
+  top:10px;
+
+}
+}
+
+@media (max-width: 728px) {
+  nav {
+    padding: 1.5rem;
+  }
+
+    .navrightlist{
+      font-size:0.9rem;
+    }
+  .introline1{
+  font-size:3.5rem;
+  padding:0.8rem;
+  line-height:4rem;
+}
+}
+
+@media (max-width: 320px) {
+
+    nav { padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      padding-top:2.5rem;
+      padding-bottom:2.5rem;
+    }
+
+.image-gallery{
+  gap:0rem;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+}
+.intro > p {
+  font-size:1rem;
+}
+
 }
 
