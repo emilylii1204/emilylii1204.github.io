@@ -65,11 +65,11 @@ html, body {
     font-family: Fraunces;
   font-weight:600;
   font-size: 2.5rem;
-    line-height:3.5rem;
+    line-height:3rem;
 }
 .about1{
   font-size:1.3rem;
-   line-height:0.2rem;
+   line-height:2rem;
   font-family:Poppins;
   font-weight:300;
 }
@@ -708,7 +708,7 @@ img{
   line-height:1.5rem;
 }
 .about1{
-  line-height:.5rem;
+  line-height:1.5rem;
   font-size:1rem;
 }
 
