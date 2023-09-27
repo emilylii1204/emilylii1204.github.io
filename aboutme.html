@@ -15,15 +15,21 @@
 
 <body>
   <div id="wrapper">
-    <nav class="flex">
+  <nav class="flex">
       <a href="index.html"><img class="home mr-auto" href="index.html" src="./imgsecond/home.svg" /></a>
       <div class="navright ml-auto flex gap-9  content-center items-center justify-end">
-          <a class="navrightlist nothere" href="work.html">Work</a><!-- 
+          <a class="navrightlist here mb-1" href="work.html">Work</a><!-- 
           <a class="navrightlist nothere" href="archive.html">Archive</a> -->
-          <a class="navrightlist here mb-1" href="aboutme.html">About</a>
+          <a class="navrightlist nothere" href="aboutme.html">About</a>
       </div>
     </nav>
-    <div class="aboutgroup p-auto mx-auto flex gap-10 content-center items-center justify-center">
+    <div class="scene">
+  <div class="magic"></div>
+  <div class="check-out"> 
+    <span class="about2"> Raised in Hong Kong, striving in NYC as a Designer<br><span class="about1">I fell in love with design after getting headaches from trying to retain information from dense textbooks. Now I see design as the bridge to translate intricate ideas visually, simplifying concepts for a more relatable and unforgettable experience.</span></div>
+    </span>
+</div>
+   <!--  <div class="aboutgroup p-auto mx-auto flex gap-10 content-center items-center justify-center">
       <img class="aboutpic rounded-3xl w-2/12 " src="./imgsecond/me.JPEG" alt="">
       <div class="aboutcontent w-3/6">
         <div class="aboutintro mb-5">"Cmd+Z is our most cherished superpower"</div>
@@ -31,21 +37,16 @@
         <p class="aboutcontent mb-1 mt-1"> Fell in love with design after getting headaches from trying to retain information from dense High School textbooks</p>
         <p class="aboutcontent mb-1 mt-1"> Design to me is the bridge to translate intricate ideas visually, simplifying concepts for a more relatable and unforgettable experience.</p>
         <p class="aboutcontent mb-1 mt-1"> Also learning how to code my website, it is still in progress playground.</p>
-<!--         <div class="aboutgrid flex gap-3 content-center ustify-start mb-5">
-          <div class="circle"> </div>
-          <div class="aboutcontent">I help brands tell engaging stories with human-centric and visually driven solutions</div>
         </div>
-        <div class="aboutgrid flex gap-3 content-center justify-start mb-5">
-          <div class="circle"> </div>
-          <div class="aboutcontent">I produce end-to end designs with seamless user experience</div>
-        </div>
-        <div class="aboutgrid flex gap-3 content-center justify-start mb-5">
-          <div class="circle"> </div>
-          <div class="aboutcontent">I enjoy exploring new frontiers across all mediums</div>
-        </div>
-        <div class="aboutgrid flex gap-3 content-center justify-start mb-5">
-          <div class="circle"> </div>
-          <div class="aboutcontent">I place a strong emphasis on ensuring accessibility in all of my work</div> -->
-        </div>
-      </div>
+      </div> -->
   </div>
+
+  <script>
+$(document).ready(function() {
+  var $magic = $(".magic"),
+      magicWHalf = $magic.width() / 2;
+  $(document).on("mousemove", function(e) {
+    $magic.css({"left": e.pageX - magicWHalf, "top": e.pageY - magicWHalf});
+  });
+});
+    </script>
