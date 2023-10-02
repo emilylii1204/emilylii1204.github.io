@@ -45,7 +45,7 @@ html, body {
   position: absolute;
   width: 15rem;
   height: 15rem;
-  background: url("../imgsecond/workout/sports-1-cover.jpg") 50% 50% no-repeat fixed;
+  background: url("../imgsecond/about-background.jpg") 50% 50% no-repeat fixed;
   background-size: cover;
   border-radius: 50%;
 }
