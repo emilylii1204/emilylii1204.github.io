@@ -465,12 +465,44 @@ img{
   position: relative;
   cursor:url(../imgsecond/cursor.png), auto;
 }
+.category{
+    left:10px;
+    position:relative;
+}
+.category2{
+  width:25%;
+}
+
+.numbers{
+  display: flex;
+  align-items: left;/*
+  justify-content: space-around;*/
+  font-family: Fraunces;
+  font-weight:500;
+  font-size:1rem;
+  height:auto;
+  border-radius:0.125rem;
+
+  outline-offset: 10px;
+  outline: 2px solid #384746;
+  background-color: #F5F1EE;
+  position: relative;
+  cursor:url(../imgsecond/cursor.png), auto;
+}
 
 .taggroup{
   
 }
 
-.workbrief{
+.title{
+  font-family: Fraunces;
+  font-weight:500;
+  font-size:1.7rem;
+  text-align: left;
+  position:relative;
+}
+
+.body{
   font-family: Poppins;
   font-weight:300;
   font-size:1rem;
@@ -638,6 +670,29 @@ img{
 }
 .image-gallery{
   column-count:1;
+}
+.title{
+  margin-top:10%;
+  margin-bottom:3%;
+  width:100%;
+  height:auto;
+}
+
+.category{
+  margin-top:5%;
+}
+
+.list{
+  margin-top:3%;
+}
+.individualimg{
+  margin-top:5%;
+  margin-bottom:5%;
+}
+
+.body{
+  width:100%;
+  height:auto;
 }
 .check-out {
   z-index: 100;
