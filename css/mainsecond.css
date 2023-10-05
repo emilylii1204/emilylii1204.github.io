@@ -178,11 +178,16 @@ nav {
 
 }
 
+.introgroup{
+  width:100%;
+  height:auto;
+}
 
 .intro{
   width:91.6667%;
-  flex-direction:row;
   margin-top:2.5rem;
+  flex-direction:row;
+  position:relative;
 /*  text-align: center;
   display: flex;
   justify-content: center;
@@ -209,6 +214,13 @@ nav {
   padding-top:3rem;
   font-size:14rem;
   text-align: left;
+  position:relative;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .introtag{
