@@ -376,6 +376,11 @@ a:hover {
  content:url("../imgsecond/therapy/therapy-cover.jpg");
 }
 
+
+.image-gallery-recycle{
+ content:url("../imgsecond/recycle/recycle-cover.jpg");
+}
+
 /*.image-gallery-therapy:hover{
  content:url("../imgsecond/therapy/therapy-4.jpg");
 }*/
