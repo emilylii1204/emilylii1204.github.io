@@ -77,6 +77,7 @@ html, body {
 
 nav {
   display: flex;
+  flex-direction:row;
   align-items: center;
   justify-content: space-between;
   padding: 2.5rem;
@@ -100,10 +101,6 @@ nav {
     z-index:100;
 }
 
-.home{
-  color:#384746;
-  opacity:1;
-}
 
 .home:hover{
   color:#4A66F2;
@@ -120,6 +117,8 @@ nav {
   width:50px;
   height:auto;
    z-index:100;
+     color:#384746;
+  opacity:1;
 
 }
 
@@ -551,7 +550,7 @@ img{
         flex-direction: row;
         align-items: center;
         margin-top: 10px;
-        margin-left:auto;
+
     }
 
     .navrightlist {
@@ -652,10 +651,20 @@ img{
 @media (max-width: 728px) {
   nav {
     padding: 1.5rem;
+    flex-direction: column;
+  }
+.home{
+
+  margin-bottom: 20px;
+}
+  .navright{
+    
+        margin-right:auto;
   }
 
     .navrightlist{
       font-size:0.9rem;
+      margin:auto;
     }
   .introline1{
   font-size:3.5rem;
@@ -712,12 +721,12 @@ img{
   height:auto;
 }
 .check-out {
-  z-index: 100;
+/*  z-index: 100;
   position: absolute;
   width:70%;
   top:30%;
   left:15%;
-  transform: translate(-10%, -30%);
+  transform: translate(-10%, -30%);*/
   font-size: 2rem;
   line-height:2rem;
 }
@@ -746,6 +755,7 @@ img{
       padding-right: 0.5rem;
       padding-top:2.5rem;
       padding-bottom:2.5rem;
+      flex-direction:column;
     }
 
 .image-gallery{
@@ -774,15 +784,16 @@ img{
   z-index: 100;
   position: absolute;
   width:50%;
+/*  width:50%;
   top:30%;
   left:10%;
-  transform: translate(-10%, -30%);
+  transform: translate(-10%, -30%);*/
   font-size: 2rem;
   line-height:1.5rem;
 }
 .about1{
   line-height:1.5rem;
-  font-size:1rem;
+  font-size:.8rem;
 }
 
 .about2{
